@@ -1,8 +1,9 @@
-#3217. Delete Nodes From Linked List Present in Array
+## **3217. Delete Nodes From Linked List Present in Array**
+
+**Medium**
 
 You are given an array of integers nums and the head of a linked list. Return the head of the modified linked list after removing all nodes from the linked list that have a value that exists in nums.
 
- 
 Example 1:
 
 Input: nums = [1,2,3], head = [1,2,3,4,5]
@@ -11,7 +12,7 @@ Output: [4,5]
 
 Explanation:
 
-![alt text](image-1.png)
+![alt text](assets/image-1.png)
 
 Remove the nodes with values 1, 2, and 3.
 
@@ -23,7 +24,7 @@ Output: [2,2,2]
 
 Explanation:
 
-![alt text](image-2.png)
+![alt text](assets/image-2.png)
 
 Remove the nodes with value 1.
 
@@ -35,6 +36,6 @@ Output: [1,2,3,4]
 
 Explanation:
 
-![alt text](image.png)
+![alt text](assets/image.png)
 
 No node has value 5.
