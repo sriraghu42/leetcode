@@ -21,4 +21,9 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0006-zigzag-conversion](https://github.com/sriraghu42/leetcode/tree/master/0006-zigzag-conversion) |
+| [0290-word-pattern](https://github.com/sriraghu42/leetcode/tree/master/0290-word-pattern) |
+## Hash Table
+|  |
+| ------- |
+| [0290-word-pattern](https://github.com/sriraghu42/leetcode/tree/master/0290-word-pattern) |
 <!---LeetCode Topics End-->
