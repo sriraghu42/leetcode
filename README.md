@@ -17,4 +17,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0092-reverse-linked-list-ii](https://github.com/sriraghu42/leetcode/tree/master/0092-reverse-linked-list-ii) |
+## String
+|  |
+| ------- |
+| [0006-zigzag-conversion](https://github.com/sriraghu42/leetcode/tree/master/0006-zigzag-conversion) |
 <!---LeetCode Topics End-->
