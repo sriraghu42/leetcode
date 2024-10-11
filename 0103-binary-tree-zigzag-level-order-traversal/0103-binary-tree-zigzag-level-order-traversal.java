@@ -22,22 +22,16 @@ class Solution {
         boolean zigzag = false;
         while(!queue.isEmpty()){
             int size = queue.size();
-            List<Integer> list = new ArrayList<>();
+            Deque<Integer> dq = new LinkedList<>();
             for(int i=0; i<size; i++){
                 TreeNode curr = queue.poll();
-                list.add(curr.val);
+                if(zigzag) dq.addFirst(curr.val);
+                else dq.addLast(curr.val);
                 if(curr.left!=null) queue.offer(curr.left);
                 if(curr.right!=null) queue.offer(curr.right);
             }
-            if(zigzag){
-                List<Integer> reverse = new ArrayList<>();
-                for(int i=list.size()-1; i>=0; i--){
-                    reverse.add(list.get(i));
-                }
-                res.add(reverse);
-            } 
-            else res.add(list);
-            zigzag = !zigzag;
+            res.add(new ArrayList<>(dq));
+            zigzag=!zigzag;
         }
         return res;
     }
