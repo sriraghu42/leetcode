@@ -12,7 +12,7 @@ Output: [4,5]
 
 Explanation:
 
-![alt text](assets/image-1.png)
+![alt text](../Assets/3217_1.png)
 
 Remove the nodes with values 1, 2, and 3.
 
@@ -24,7 +24,7 @@ Output: [2,2,2]
 
 Explanation:
 
-![alt text](assets/image-2.png)
+![alt text](../Assets/3217_2.png)
 
 Remove the nodes with value 1.
 
@@ -36,6 +36,6 @@ Output: [1,2,3,4]
 
 Explanation:
 
-![alt text](assets/image.png)
+![alt text](../Assets/3217_3.png)
 
 No node has value 5.
