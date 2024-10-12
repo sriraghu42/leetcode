@@ -15,15 +15,21 @@
  */
 class Solution {
     public int kthSmallest(TreeNode root, int k) {
-        List<Integer> list = new ArrayList<>();
-        helperRec(root,list);
-        return list.get(k-1);
+        int[] count = new int[1];
+        int[] ans = new int[1];
+        helperRec(root,count,k,ans);
+        return ans[0];
     }
 
-    public void helperRec(TreeNode root,List<Integer> list){
+    public void helperRec(TreeNode root,int[] count,int k,int[] ans){
         if(root == null) return;
-        helperRec(root.left,list);
-        list.add(root.val);
-        helperRec(root.right,list);
+        helperRec(root.left,count,k,ans);
+        count[0]++;
+        if(count[0]==k){
+            ans[0]=root.val;
+            return;
+        } 
+        helperRec(root.right,count,k,ans);
+        return ;
     }
 }
