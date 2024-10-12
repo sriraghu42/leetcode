@@ -1,9 +1,14 @@
 class Solution {
     public int evalRPN(String[] tokens) {
         Stack<Integer> stack = new Stack<>();
+        Set<String> set = new HashSet<>();
+        set.add("+");
+        set.add("-");
+        set.add("*");
+        set.add("/");
         for(int i=0; i<tokens.length; i++){
             String token = tokens[i];
-            if(!Arrays.asList("+","-","*","/").contains(token)){
+            if(!set.contains(token)){
                 stack.push(Integer.parseInt(token));
             }
             else{
