@@ -1,20 +1,16 @@
 class Solution {
     public String[] findRelativeRanks(int[] score) {
-        int[] arr = score.clone();
-        Arrays.sort(arr);
-        // Reverse the sorted array
-        for (int i = 0; i < arr.length / 2; i++) {
-            int temp = arr[i];
-            arr[i] = arr[arr.length - 1 - i];
-            arr[arr.length - 1 - i] = temp;
-        }
+        List<Integer> list = new ArrayList<>();
+        for(int num : score) list.add(num);
+        Collections.sort(list,Collections.reverseOrder());
+    
         String[] ref = new String[] {"Gold Medal", "Silver Medal", "Bronze Medal"};
         Map<Integer, String> map = new HashMap<>();
         for(int i=0; i<Math.min(score.length,3); i++){
-            map.put(arr[i],ref[i]);
+            map.put(list.get(i),ref[i]);
         }
         for(int i=3;i<score.length; i++){
-            map.put(arr[i],String.valueOf(i+1));
+            map.put(list.get(i),String.valueOf(i+1));
         }
         String[] ans = new String[score.length];
         for(int i=0; i<score.length; i++){
