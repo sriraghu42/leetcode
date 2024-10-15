@@ -1,6 +1,11 @@
 class Solution {
     public int[] kWeakestRows(int[][] mat, int k) {
-        Map<Integer,Integer> map = new HashMap<>();
+        Queue<int[]> pq = new PriorityQueue<>((a,b) -> {
+            int comp = b[1]-a[1];
+            if(comp!=0) return comp;
+            return b[0]-a[0];
+        });
+        
         for(int i=0; i<mat.length; i++){
             int[] row = mat[i];
             int counter = 0;
@@ -8,18 +13,13 @@ class Solution {
                 if(num!=1) break;
                 counter++;
             }
-            map.put(i,counter);
+            pq.offer(new int[] {i,counter});
+            if(pq.size()>k) pq.poll();
         }
-        List<Map.Entry<Integer,Integer>> list = new ArrayList<>(map.entrySet());
-        list.sort((entry1,entry2) -> {
-            int compValue = entry1.getValue().compareTo(entry2.getValue());
-            if(compValue!=0) return compValue;
-            return entry1.getKey().compareTo(entry2.getKey());
-        });
 
         int[] ans = new int[k];
-        for(int i=0; i<k; i++){
-            ans[i] = list.get(i).getKey();
+        for(int i=k-1; i>=0; i--){
+            ans[i] = pq.poll()[0];
         }
         return ans;
     }
