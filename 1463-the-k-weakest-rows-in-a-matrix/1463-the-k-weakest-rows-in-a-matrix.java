@@ -8,12 +8,14 @@ class Solution {
         
         for(int i=0; i<mat.length; i++){
             int[] row = mat[i];
-            int counter = 0;
-            for(int num : row){
-                if(num!=1) break;
-                counter++;
+            int m=0;
+            int n=row.length-1;
+            while(m<=n){
+                int p = m+(n-m)/2;
+                if(row[p]==1) m=p+1;
+                else n=p-1;
             }
-            pq.offer(new int[] {i,counter});
+            pq.offer(new int[] {i,m});
             if(pq.size()>k) pq.poll();
         }
 
