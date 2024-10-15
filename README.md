@@ -35,6 +35,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0012-integer-to-roman](https://github.com/sriraghu42/leetcode/tree/master/0012-integer-to-roman) |
 | [0049-group-anagrams](https://github.com/sriraghu42/leetcode/tree/master/0049-group-anagrams) |
 | [0290-word-pattern](https://github.com/sriraghu42/leetcode/tree/master/0290-word-pattern) |
+| [3610-find-x-sum-of-all-k-long-subarrays-i](https://github.com/sriraghu42/leetcode/tree/master/3610-find-x-sum-of-all-k-long-subarrays-i) |
 ## Math
 |  |
 | ------- |
@@ -49,6 +50,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0506-relative-ranks](https://github.com/sriraghu42/leetcode/tree/master/0506-relative-ranks) |
 | [1127-last-stone-weight](https://github.com/sriraghu42/leetcode/tree/master/1127-last-stone-weight) |
 | [1463-the-k-weakest-rows-in-a-matrix](https://github.com/sriraghu42/leetcode/tree/master/1463-the-k-weakest-rows-in-a-matrix) |
+| [3610-find-x-sum-of-all-k-long-subarrays-i](https://github.com/sriraghu42/leetcode/tree/master/3610-find-x-sum-of-all-k-long-subarrays-i) |
 ## Stack
 |  |
 | ------- |
@@ -93,6 +95,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0506-relative-ranks](https://github.com/sriraghu42/leetcode/tree/master/0506-relative-ranks) |
 | [1127-last-stone-weight](https://github.com/sriraghu42/leetcode/tree/master/1127-last-stone-weight) |
 | [1463-the-k-weakest-rows-in-a-matrix](https://github.com/sriraghu42/leetcode/tree/master/1463-the-k-weakest-rows-in-a-matrix) |
+| [3610-find-x-sum-of-all-k-long-subarrays-i](https://github.com/sriraghu42/leetcode/tree/master/3610-find-x-sum-of-all-k-long-subarrays-i) |
 ## Quickselect
 |  |
 | ------- |
@@ -101,4 +104,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [1463-the-k-weakest-rows-in-a-matrix](https://github.com/sriraghu42/leetcode/tree/master/1463-the-k-weakest-rows-in-a-matrix) |
+## Sliding Window
+|  |
+| ------- |
+| [3610-find-x-sum-of-all-k-long-subarrays-i](https://github.com/sriraghu42/leetcode/tree/master/3610-find-x-sum-of-all-k-long-subarrays-i) |
 <!---LeetCode Topics End-->
