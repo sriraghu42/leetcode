@@ -15,24 +15,34 @@
  */
 class Solution {
     public List<List<Integer>> zigzagLevelOrder(TreeNode root) {
-        List<List<Integer>> res = new ArrayList<>();
-        if(root==null) return res;
-        Queue<TreeNode> queue = new LinkedList<>();
-        queue.offer(root);
-        boolean zigzag = false;
-        while(!queue.isEmpty()){
-            int size = queue.size();
-            Deque<Integer> dq = new LinkedList<>();
+        List<List<Integer>> ans = new ArrayList<>();
+        if(root==null) return ans;
+        Queue<TreeNode> q = new LinkedList<>();
+        q.offer(root);
+        boolean reverse = false;
+        while(!q.isEmpty()){
+            List<Integer> list = new ArrayList<>();
+            int size = q.size();
             for(int i=0; i<size; i++){
-                TreeNode curr = queue.poll();
-                if(zigzag) dq.addFirst(curr.val);
-                else dq.addLast(curr.val);
-                if(curr.left!=null) queue.offer(curr.left);
-                if(curr.right!=null) queue.offer(curr.right);
+                TreeNode curr = q.poll();
+                list.add(curr.val);
+                if(curr.left!=null) q.offer(curr.left);
+                if(curr.right!=null) q.offer(curr.right);
             }
-            res.add(new ArrayList<>(dq));
-            zigzag=!zigzag;
+            if(reverse){
+                    int m = 0;
+                    int n = list.size()-1;
+                    while(m<n){
+                        int temp = list.get(m);
+                        list.set(m,list.get(n));
+                        list.set(n,temp);
+                        m++;
+                        n--;
+                    } 
+                }
+            reverse = !reverse;
+            ans.add(list);
         }
-        return res;
+        return ans;
     }
 }
