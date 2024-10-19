@@ -23,9 +23,9 @@ class Solution {
 
     public int helperRec(TreeNode root, int[] ans){
         if(root==null) return 0;
-        int a = Math.max(0,helperRec(root.left,ans));
-        int b = Math.max(0,helperRec(root.right,ans));
-        ans[0] = Math.max(ans[0],a+b+root.val);
-        return Math.max(a,b)+root.val;
+        int a = Math.max(helperRec(root.left,ans),0);
+        int b = Math.max(helperRec(root.right,ans),0);
+        ans[0] = Math.max(ans[0],root.val+a+b);
+        return root.val+Math.max(a,b);
     }
 }
