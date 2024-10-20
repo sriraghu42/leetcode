@@ -7,15 +7,10 @@ class Solution {
         while(j<s.length()){
             int index = s.charAt(j) - 'a';
             countArray[index]++;
-            if(countArray[index]>=k){
+            while(countArray[index]>=k){
                 counter+=s.length()-j;
                 countArray[s.charAt(i)-'a']--;
                 i++;
-                while(countArray[index]>=k){
-                    counter+=s.length()-j;
-                    countArray[s.charAt(i)-'a']--;
-                    i++;
-                }
             }
             j++;
         }
