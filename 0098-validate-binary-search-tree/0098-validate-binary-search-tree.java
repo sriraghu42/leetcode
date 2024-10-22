@@ -15,20 +15,14 @@
  */
 class Solution {
     public boolean isValidBST(TreeNode root) {
-        if(root.left==null && root.right==null) return true;
-        List<Integer> list = new ArrayList<>();
-        helperRec(root,list);
-        for(int i=1; i<list.size(); i++){
-            if(list.get(i)<=list.get(i-1)) return false;
-        }
-        return true;
+        long min = Long.MIN_VALUE;
+        long max = Long.MAX_VALUE;
+        return helperRec(root.left,min,root.val) && helperRec(root.right,root.val,max);
     }
 
-    public TreeNode helperRec(TreeNode root, List<Integer> list){
-        if(root == null) return root;
-        helperRec(root.left,list);
-        list.add(root.val);
-        helperRec(root.right,list);
-        return root;
+    public boolean helperRec(TreeNode node, long min, long max){
+        if(node == null) return true;
+        if(node.val>min && node.val<max) return helperRec(node.left,min,node.val) && helperRec(node.right,node.val,max);
+        return false;
     }
 }
