@@ -18,6 +18,11 @@ class Solution {
         while(j<s.length()){
             char ch = s.charAt(j);
             sb.append(ch);
+            if(i<s.length() && result.length()!=0 && sb.length()>result.length()){
+                if(map2.containsKey(s.charAt(i))) map2.put(s.charAt(i),map2.get(s.charAt(i))-1);
+                i++;
+                sb.deleteCharAt(0);
+            }
             if(map2.containsKey(ch)){
                 map2.put(ch,map2.get(ch)+1);
                 while(i<s.length() && isMatch(map1,map2)){
