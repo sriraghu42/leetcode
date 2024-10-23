@@ -1,50 +1,37 @@
 class Solution {
     public String minWindow(String s, String t) {
-        StringBuilder sb = new StringBuilder();
+        Set<Character> set = new HashSet<>();
         String result = "";
-        Map<Character,Integer> map1 = new HashMap<>();
-        Map<Character,Integer> map2 = new HashMap<>();
+        int[] arr = new int[128];
+        int count = t.length();
         for(char ch : t.toCharArray()){
-            map1.put(ch,map1.getOrDefault(ch,0)+1);
-        }
-        for(char ch : map1.keySet()){
-            map2.put(ch,0);
-        }
+            arr[ch]++;
+            set.add(ch);
+        } 
+        StringBuilder sb = new StringBuilder();
         int i = 0;
-        while(i<s.length() && !map2.containsKey(s.charAt(i))){
-            i++;
-        }
-        int j = i;
+        int j = 0;
         while(j<s.length()){
             char ch = s.charAt(j);
             sb.append(ch);
-            if(i<s.length() && result.length()!=0 && sb.length()>result.length()){
-                if(map2.containsKey(s.charAt(i))) map2.put(s.charAt(i),map2.get(s.charAt(i))-1);
-                i++;
-                sb.deleteCharAt(0);
-            }
-            if(map2.containsKey(ch)){
-                map2.put(ch,map2.get(ch)+1);
-                while(i<s.length() && isMatch(map1,map2)){
+            if(set.contains(ch)){
+                arr[ch]--;
+                //System.out.println(ch + " : " + arr[ch]);
+                if(arr[ch]>=0) count--;
+                while(count==0){
+                    //System.out.println(sb.toString());
+                    //System.out.println("i : "+i);
                     if(result.equals("") || result.length()>sb.length()) result = sb.toString();
-                    if(map2.containsKey(s.charAt(i))) map2.put(s.charAt(i),map2.get(s.charAt(i))-1);
-                    i++;
+                    if(set.contains(s.charAt(i))){
+                        arr[s.charAt(i)]++;
+                        if(arr[s.charAt(i)] > 0) count++;
+                    }
                     sb.deleteCharAt(0);
-                }
-                while(i<s.length() && !map2.containsKey(s.charAt(i))){
                     i++;
-                    if(sb.length()>0) sb.deleteCharAt(0);
-                }
+                } 
             }
             j++;
         }
         return result;
-    }
-
-    public boolean isMatch(Map<Character,Integer> map1, Map<Character,Integer> map2){
-        for(char ch : map1.keySet()){
-            if(map2.get(ch)<map1.get(ch)) return false;
-        }
-        return true;
     }
 }
