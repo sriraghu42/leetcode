@@ -1,45 +1,30 @@
 class Solution {
     public String minWindow(String s, String t) {
-        StringBuilder sb = new StringBuilder();
-        String result = "";
-        Map<Character,Integer> map1 = new HashMap<>();
-        Map<Character,Integer> map2 = new HashMap<>();
+        if(s.length()<t.length()) return "";
+        int start = 0;
+        int length = Integer.MAX_VALUE;
+        int[] arr = new int[128];
+        int count = t.length();
         for(char ch : t.toCharArray()){
-            map1.put(ch,map1.getOrDefault(ch,0)+1);
-        }
-        for(char ch : map1.keySet()){
-            map2.put(ch,0);
+            arr[ch]++;
         }
         int i = 0;
-        while(i<s.length() && !map2.containsKey(s.charAt(i))){
-            i++;
-        }
-        int j = i;
+        int j = 0;
         while(j<s.length()){
             char ch = s.charAt(j);
-            sb.append(ch);
-            if(map2.containsKey(ch)){
-                map2.put(ch,map2.get(ch)+1);
-                while(i<s.length() && isMatch(map1,map2)){
-                    if(result.equals("") || result.length()>sb.length()) result = sb.toString();
-                    if(map2.containsKey(s.charAt(i))) map2.put(s.charAt(i),map2.get(s.charAt(i))-1);
-                    i++;
-                    sb.deleteCharAt(0);
-                }
-                while(i<s.length() && !map2.containsKey(s.charAt(i))){
-                    i++;
-                    if(sb.length()>0) sb.deleteCharAt(0);
-                }
+            arr[ch]--;
+            if(arr[ch]>=0) count--;
+            while(count==0){
+                if(length>j-i+1){
+                    start = i;
+                    length = j-i+1;
+                } 
+                arr[s.charAt(i)]++;
+                if(arr[s.charAt(i)] > 0) count++;
+                i++;
             }
             j++;
         }
-        return result;
-    }
-
-    public boolean isMatch(Map<Character,Integer> map1, Map<Character,Integer> map2){
-        for(char ch : map1.keySet()){
-            if(map2.get(ch)<map1.get(ch)) return false;
-        }
-        return true;
+        return length!=Integer.MAX_VALUE?s.substring(start,start+length):"";
     }
 }
