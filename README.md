@@ -42,6 +42,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0076-minimum-window-substring](https://github.com/sriraghu42/leetcode/tree/master/0076-minimum-window-substring) |
 | [0151-reverse-words-in-a-string](https://github.com/sriraghu42/leetcode/tree/master/0151-reverse-words-in-a-string) |
 | [0290-word-pattern](https://github.com/sriraghu42/leetcode/tree/master/0290-word-pattern) |
+| [3502-count-substrings-with-k-frequency-characters-i](https://github.com/sriraghu42/leetcode/tree/master/3502-count-substrings-with-k-frequency-characters-i) |
 ## Hash Table
 |  |
 | ------- |
@@ -50,6 +51,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0076-minimum-window-substring](https://github.com/sriraghu42/leetcode/tree/master/0076-minimum-window-substring) |
 | [0128-longest-consecutive-sequence](https://github.com/sriraghu42/leetcode/tree/master/0128-longest-consecutive-sequence) |
 | [0290-word-pattern](https://github.com/sriraghu42/leetcode/tree/master/0290-word-pattern) |
+| [3502-count-substrings-with-k-frequency-characters-i](https://github.com/sriraghu42/leetcode/tree/master/3502-count-substrings-with-k-frequency-characters-i) |
 | [3610-find-x-sum-of-all-k-long-subarrays-i](https://github.com/sriraghu42/leetcode/tree/master/3610-find-x-sum-of-all-k-long-subarrays-i) |
 ## Math
 |  |
@@ -152,6 +154,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0076-minimum-window-substring](https://github.com/sriraghu42/leetcode/tree/master/0076-minimum-window-substring) |
+| [3502-count-substrings-with-k-frequency-characters-i](https://github.com/sriraghu42/leetcode/tree/master/3502-count-substrings-with-k-frequency-characters-i) |
 | [3610-find-x-sum-of-all-k-long-subarrays-i](https://github.com/sriraghu42/leetcode/tree/master/3610-find-x-sum-of-all-k-long-subarrays-i) |
 ## Geometry
 |  |
