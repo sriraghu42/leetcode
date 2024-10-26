@@ -1,5 +1,5 @@
 class Solution {
-    Map<Integer,Integer> map = new HashMap<>();
+    int[] arr;
     int[] cost;
     public int minCostClimbingStairs(int[] cost) {
         //Bottom-up approach
@@ -16,12 +16,14 @@ class Solution {
 
         //Top-down approach
         this.cost = cost;
+        this.arr = new int[cost.length+1];
+        Arrays.fill(arr,-1);
         return dp(cost.length);
     }
 
     public int dp(int n){
         if(n==0 || n==1) return 0;
-        if(!map.containsKey(n)) map.put(n, Math.min(cost[n-1]+dp(n-1),cost[n-2]+dp(n-2)));
-        return map.get(n);
+        if(arr[n]==-1) arr[n] = Math.min(cost[n-1]+dp(n-1),cost[n-2]+dp(n-2));
+        return arr[n];
     }
 }
