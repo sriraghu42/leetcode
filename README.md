@@ -52,6 +52,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0076-minimum-window-substring](https://github.com/sriraghu42/leetcode/tree/master/0076-minimum-window-substring) |
 | [0128-longest-consecutive-sequence](https://github.com/sriraghu42/leetcode/tree/master/0128-longest-consecutive-sequence) |
 | [0290-word-pattern](https://github.com/sriraghu42/leetcode/tree/master/0290-word-pattern) |
+| [0740-delete-and-earn](https://github.com/sriraghu42/leetcode/tree/master/0740-delete-and-earn) |
 | [3502-count-substrings-with-k-frequency-characters-i](https://github.com/sriraghu42/leetcode/tree/master/3502-count-substrings-with-k-frequency-characters-i) |
 | [3610-find-x-sum-of-all-k-long-subarrays-i](https://github.com/sriraghu42/leetcode/tree/master/3610-find-x-sum-of-all-k-long-subarrays-i) |
 ## Math
@@ -78,6 +79,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0215-kth-largest-element-in-an-array](https://github.com/sriraghu42/leetcode/tree/master/0215-kth-largest-element-in-an-array) |
 | [0287-find-the-duplicate-number](https://github.com/sriraghu42/leetcode/tree/master/0287-find-the-duplicate-number) |
 | [0506-relative-ranks](https://github.com/sriraghu42/leetcode/tree/master/0506-relative-ranks) |
+| [0740-delete-and-earn](https://github.com/sriraghu42/leetcode/tree/master/0740-delete-and-earn) |
 | [0747-min-cost-climbing-stairs](https://github.com/sriraghu42/leetcode/tree/master/0747-min-cost-climbing-stairs) |
 | [1014-k-closest-points-to-origin](https://github.com/sriraghu42/leetcode/tree/master/1014-k-closest-points-to-origin) |
 | [1127-last-stone-weight](https://github.com/sriraghu42/leetcode/tree/master/1127-last-stone-weight) |
@@ -110,6 +112,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/sriraghu42/leetcode/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
 | [0124-binary-tree-maximum-path-sum](https://github.com/sriraghu42/leetcode/tree/master/0124-binary-tree-maximum-path-sum) |
 | [0198-house-robber](https://github.com/sriraghu42/leetcode/tree/master/0198-house-robber) |
+| [0740-delete-and-earn](https://github.com/sriraghu42/leetcode/tree/master/0740-delete-and-earn) |
 | [0747-min-cost-climbing-stairs](https://github.com/sriraghu42/leetcode/tree/master/0747-min-cost-climbing-stairs) |
 | [1236-n-th-tribonacci-number](https://github.com/sriraghu42/leetcode/tree/master/1236-n-th-tribonacci-number) |
 ## Two Pointers
