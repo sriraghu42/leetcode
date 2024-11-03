@@ -42,6 +42,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0076-minimum-window-substring](https://github.com/sriraghu42/leetcode/tree/master/0076-minimum-window-substring) |
 | [0151-reverse-words-in-a-string](https://github.com/sriraghu42/leetcode/tree/master/0151-reverse-words-in-a-string) |
 | [0290-word-pattern](https://github.com/sriraghu42/leetcode/tree/master/0290-word-pattern) |
+| [0812-rotate-string](https://github.com/sriraghu42/leetcode/tree/master/0812-rotate-string) |
 | [1302-delete-characters-to-make-fancy-string](https://github.com/sriraghu42/leetcode/tree/master/1302-delete-characters-to-make-fancy-string) |
 | [1850-minimum-length-of-string-after-deleting-similar-ends](https://github.com/sriraghu42/leetcode/tree/master/1850-minimum-length-of-string-after-deleting-similar-ends) |
 | [2580-circular-sentence](https://github.com/sriraghu42/leetcode/tree/master/2580-circular-sentence) |
@@ -133,6 +134,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0028-find-the-index-of-the-first-occurrence-in-a-string](https://github.com/sriraghu42/leetcode/tree/master/0028-find-the-index-of-the-first-occurrence-in-a-string) |
+| [0812-rotate-string](https://github.com/sriraghu42/leetcode/tree/master/0812-rotate-string) |
 ## Sorting
 |  |
 | ------- |
