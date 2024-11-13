@@ -8,6 +8,7 @@ class Solution {
                 if(grid[i][j] == 1){
                     int[] count = new int[1];
                     dfs(grid,i,j,count);
+                    ans = Math.max(ans,count[0]);
                 } 
             }
         }
@@ -23,6 +24,5 @@ class Solution {
             if(a<0 || b<0 || a==grid.length || b== grid[0].length || grid[a][b]==0) continue;
             dfs(grid,a,b,count);
         }
-        ans = Math.max(ans,count[0]);
     }
 }
