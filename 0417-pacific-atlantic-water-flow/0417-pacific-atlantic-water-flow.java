@@ -16,6 +16,7 @@ class Solution {
 
     public void dfs(int[][] heights, int i, int j, boolean[] ocean, boolean[][] visited){
         visited[i][j] = true;
+        if(ocean[0] && ocean[1]) return;
         for(int[] dir : directions){
             int a = i + dir[0];
             int b = j + dir[1];
@@ -30,6 +31,5 @@ class Solution {
             if(visited[a][b]) continue;
             if(heights[a][b]<=heights[i][j]) dfs(heights,a,b,ocean,visited);
         }
-        //visited[i][j] = false;
     }
 }
