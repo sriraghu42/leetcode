@@ -15,6 +15,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0103-binary-tree-zigzag-level-order-traversal](https://github.com/sriraghu42/leetcode/tree/master/0103-binary-tree-zigzag-level-order-traversal) |
 | [0117-populating-next-right-pointers-in-each-node-ii](https://github.com/sriraghu42/leetcode/tree/master/0117-populating-next-right-pointers-in-each-node-ii) |
 | [0200-number-of-islands](https://github.com/sriraghu42/leetcode/tree/master/0200-number-of-islands) |
+| [0695-max-area-of-island](https://github.com/sriraghu42/leetcode/tree/master/0695-max-area-of-island) |
 | [0733-flood-fill](https://github.com/sriraghu42/leetcode/tree/master/0733-flood-fill) |
 | [1036-rotting-oranges](https://github.com/sriraghu42/leetcode/tree/master/1036-rotting-oranges) |
 ## Binary Tree
@@ -87,6 +88,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0215-kth-largest-element-in-an-array](https://github.com/sriraghu42/leetcode/tree/master/0215-kth-largest-element-in-an-array) |
 | [0287-find-the-duplicate-number](https://github.com/sriraghu42/leetcode/tree/master/0287-find-the-duplicate-number) |
 | [0506-relative-ranks](https://github.com/sriraghu42/leetcode/tree/master/0506-relative-ranks) |
+| [0695-max-area-of-island](https://github.com/sriraghu42/leetcode/tree/master/0695-max-area-of-island) |
 | [0733-flood-fill](https://github.com/sriraghu42/leetcode/tree/master/0733-flood-fill) |
 | [0740-delete-and-earn](https://github.com/sriraghu42/leetcode/tree/master/0740-delete-and-earn) |
 | [0747-min-cost-climbing-stairs](https://github.com/sriraghu42/leetcode/tree/master/0747-min-cost-climbing-stairs) |
@@ -114,6 +116,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0124-binary-tree-maximum-path-sum](https://github.com/sriraghu42/leetcode/tree/master/0124-binary-tree-maximum-path-sum) |
 | [0200-number-of-islands](https://github.com/sriraghu42/leetcode/tree/master/0200-number-of-islands) |
 | [0230-kth-smallest-element-in-a-bst](https://github.com/sriraghu42/leetcode/tree/master/0230-kth-smallest-element-in-a-bst) |
+| [0695-max-area-of-island](https://github.com/sriraghu42/leetcode/tree/master/0695-max-area-of-island) |
 | [0733-flood-fill](https://github.com/sriraghu42/leetcode/tree/master/0733-flood-fill) |
 ## Binary Search Tree
 |  |
@@ -186,6 +189,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0200-number-of-islands](https://github.com/sriraghu42/leetcode/tree/master/0200-number-of-islands) |
+| [0695-max-area-of-island](https://github.com/sriraghu42/leetcode/tree/master/0695-max-area-of-island) |
 | [0733-flood-fill](https://github.com/sriraghu42/leetcode/tree/master/0733-flood-fill) |
 | [1036-rotting-oranges](https://github.com/sriraghu42/leetcode/tree/master/1036-rotting-oranges) |
 | [1331-path-with-maximum-gold](https://github.com/sriraghu42/leetcode/tree/master/1331-path-with-maximum-gold) |
@@ -229,6 +233,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0128-longest-consecutive-sequence](https://github.com/sriraghu42/leetcode/tree/master/0128-longest-consecutive-sequence) |
 | [0200-number-of-islands](https://github.com/sriraghu42/leetcode/tree/master/0200-number-of-islands) |
+| [0695-max-area-of-island](https://github.com/sriraghu42/leetcode/tree/master/0695-max-area-of-island) |
 ## Number Theory
 |  |
 | ------- |
