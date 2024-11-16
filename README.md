@@ -62,6 +62,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0128-longest-consecutive-sequence](https://github.com/sriraghu42/leetcode/tree/master/0128-longest-consecutive-sequence) |
 | [0290-word-pattern](https://github.com/sriraghu42/leetcode/tree/master/0290-word-pattern) |
 | [0740-delete-and-earn](https://github.com/sriraghu42/leetcode/tree/master/0740-delete-and-earn) |
+| [1798-max-number-of-k-sum-pairs](https://github.com/sriraghu42/leetcode/tree/master/1798-max-number-of-k-sum-pairs) |
 | [3502-count-substrings-with-k-frequency-characters-i](https://github.com/sriraghu42/leetcode/tree/master/3502-count-substrings-with-k-frequency-characters-i) |
 | [3610-find-x-sum-of-all-k-long-subarrays-i](https://github.com/sriraghu42/leetcode/tree/master/3610-find-x-sum-of-all-k-long-subarrays-i) |
 ## Math
@@ -99,6 +100,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1127-last-stone-weight](https://github.com/sriraghu42/leetcode/tree/master/1127-last-stone-weight) |
 | [1331-path-with-maximum-gold](https://github.com/sriraghu42/leetcode/tree/master/1331-path-with-maximum-gold) |
 | [1463-the-k-weakest-rows-in-a-matrix](https://github.com/sriraghu42/leetcode/tree/master/1463-the-k-weakest-rows-in-a-matrix) |
+| [1798-max-number-of-k-sum-pairs](https://github.com/sriraghu42/leetcode/tree/master/1798-max-number-of-k-sum-pairs) |
 | [3522-find-the-power-of-k-size-subarrays-i](https://github.com/sriraghu42/leetcode/tree/master/3522-find-the-power-of-k-size-subarrays-i) |
 | [3523-find-the-power-of-k-size-subarrays-ii](https://github.com/sriraghu42/leetcode/tree/master/3523-find-the-power-of-k-size-subarrays-ii) |
 | [3579-maximum-possible-number-by-binary-concatenation](https://github.com/sriraghu42/leetcode/tree/master/3579-maximum-possible-number-by-binary-concatenation) |
@@ -151,6 +153,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0086-partition-list](https://github.com/sriraghu42/leetcode/tree/master/0086-partition-list) |
 | [0151-reverse-words-in-a-string](https://github.com/sriraghu42/leetcode/tree/master/0151-reverse-words-in-a-string) |
 | [0287-find-the-duplicate-number](https://github.com/sriraghu42/leetcode/tree/master/0287-find-the-duplicate-number) |
+| [1798-max-number-of-k-sum-pairs](https://github.com/sriraghu42/leetcode/tree/master/1798-max-number-of-k-sum-pairs) |
 | [1850-minimum-length-of-string-after-deleting-similar-ends](https://github.com/sriraghu42/leetcode/tree/master/1850-minimum-length-of-string-after-deleting-similar-ends) |
 ## String Matching
 |  |
@@ -167,6 +170,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0506-relative-ranks](https://github.com/sriraghu42/leetcode/tree/master/0506-relative-ranks) |
 | [1014-k-closest-points-to-origin](https://github.com/sriraghu42/leetcode/tree/master/1014-k-closest-points-to-origin) |
 | [1463-the-k-weakest-rows-in-a-matrix](https://github.com/sriraghu42/leetcode/tree/master/1463-the-k-weakest-rows-in-a-matrix) |
+| [1798-max-number-of-k-sum-pairs](https://github.com/sriraghu42/leetcode/tree/master/1798-max-number-of-k-sum-pairs) |
 ## Divide and Conquer
 |  |
 | ------- |
