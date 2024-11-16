@@ -3,17 +3,14 @@ class Solution {
         int ans = 0;
         int i = 0;
         int j = 0;
-        int[] a = new int[2];
+        int zeroCount = 0;
         while(j<nums.length){
-            a[nums[j]]++;
-            if(a[0]>k){
-                //ans = Math.max(ans,a[1]+k);
-                while(a[0]>k){
-                    a[nums[i]]--;
-                    i++;
-                }
+            if(nums[j]==0) zeroCount++;
+            while(zeroCount>k){
+                if(nums[i]==0) zeroCount--;
+                i++;
             }
-            ans = Math.max(ans,a[1]+a[0]);
+            ans = Math.max(ans,j-i+1);
             j++; 
         }
         return ans;
