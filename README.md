@@ -108,6 +108,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1463-the-k-weakest-rows-in-a-matrix](https://github.com/sriraghu42/leetcode/tree/master/1463-the-k-weakest-rows-in-a-matrix) |
 | [1514-minimum-value-to-get-positive-step-by-step-sum](https://github.com/sriraghu42/leetcode/tree/master/1514-minimum-value-to-get-positive-step-by-step-sum) |
 | [1798-max-number-of-k-sum-pairs](https://github.com/sriraghu42/leetcode/tree/master/1798-max-number-of-k-sum-pairs) |
+| [2343-count-unguarded-cells-in-the-grid](https://github.com/sriraghu42/leetcode/tree/master/2343-count-unguarded-cells-in-the-grid) |
 | [3522-find-the-power-of-k-size-subarrays-i](https://github.com/sriraghu42/leetcode/tree/master/3522-find-the-power-of-k-size-subarrays-i) |
 | [3523-find-the-power-of-k-size-subarrays-ii](https://github.com/sriraghu42/leetcode/tree/master/3523-find-the-power-of-k-size-subarrays-ii) |
 | [3579-maximum-possible-number-by-binary-concatenation](https://github.com/sriraghu42/leetcode/tree/master/3579-maximum-possible-number-by-binary-concatenation) |
@@ -215,6 +216,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1036-rotting-oranges](https://github.com/sriraghu42/leetcode/tree/master/1036-rotting-oranges) |
 | [1331-path-with-maximum-gold](https://github.com/sriraghu42/leetcode/tree/master/1331-path-with-maximum-gold) |
 | [1463-the-k-weakest-rows-in-a-matrix](https://github.com/sriraghu42/leetcode/tree/master/1463-the-k-weakest-rows-in-a-matrix) |
+| [2343-count-unguarded-cells-in-the-grid](https://github.com/sriraghu42/leetcode/tree/master/2343-count-unguarded-cells-in-the-grid) |
 | [3627-find-minimum-time-to-reach-last-room-i](https://github.com/sriraghu42/leetcode/tree/master/3627-find-minimum-time-to-reach-last-room-i) |
 | [3628-find-minimum-time-to-reach-last-room-ii](https://github.com/sriraghu42/leetcode/tree/master/3628-find-minimum-time-to-reach-last-room-ii) |
 ## Sliding Window
@@ -288,4 +290,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1046-max-consecutive-ones-iii](https://github.com/sriraghu42/leetcode/tree/master/1046-max-consecutive-ones-iii) |
 | [1514-minimum-value-to-get-positive-step-by-step-sum](https://github.com/sriraghu42/leetcode/tree/master/1514-minimum-value-to-get-positive-step-by-step-sum) |
 | [1537-maximum-score-after-splitting-a-string](https://github.com/sriraghu42/leetcode/tree/master/1537-maximum-score-after-splitting-a-string) |
+## Simulation
+|  |
+| ------- |
+| [2343-count-unguarded-cells-in-the-grid](https://github.com/sriraghu42/leetcode/tree/master/2343-count-unguarded-cells-in-the-grid) |
 <!---LeetCode Topics End-->
