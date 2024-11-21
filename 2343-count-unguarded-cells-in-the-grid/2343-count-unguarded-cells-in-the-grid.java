@@ -1,4 +1,5 @@
 class Solution {
+    int[][] directions = new int[][] {{-1,0},{1,0},{0,1},{0,-1}};
     public int countUnguarded(int m, int n, int[][] guards, int[][] walls) {
         char[][] grid = new char[m][n];
         for(int[] guard : guards){
@@ -8,23 +9,14 @@ class Solution {
             grid[wall[0]][wall[1]] = 'W';
         }
         for(int[] guard : guards){
-            int i = guard[0];
-            int j = guard[1];
-            for(int k=i+1;k<m;k++){
-                if(grid[k][j]=='G' || grid[k][j]=='W') break;
-                grid[k][j] = 'M';
-            }
-            for(int k=i-1;k>=0;k--){
-                if(grid[k][j]=='G' || grid[k][j]=='W') break;
-                grid[k][j] = 'M';
-            }
-            for(int k=j+1;k<n;k++){
-                if(grid[i][k]=='G' || grid[i][k]=='W') break;
-                grid[i][k] = 'M';
-            }
-            for(int k=j-1;k>=0;k--){
-                if(grid[i][k]=='G' || grid[i][k]=='W') break;
-                grid[i][k] = 'M';
+            for(int[] dir : directions){
+                int i = guard[0]+dir[0];
+                int j = guard[1]+dir[1];
+                while(i<m && i>=0 && j<n && j>=0 && grid[i][j]!='G' && grid[i][j]!='W'){
+                    grid[i][j]='M';
+                    i+= dir[0];
+                    j+= dir[1];
+                }
             }
         }
         int counter = 0;
