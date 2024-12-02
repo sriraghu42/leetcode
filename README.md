@@ -56,6 +56,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1850-minimum-length-of-string-after-deleting-similar-ends](https://github.com/sriraghu42/leetcode/tree/master/1850-minimum-length-of-string-after-deleting-similar-ends) |
 | [2580-circular-sentence](https://github.com/sriraghu42/leetcode/tree/master/2580-circular-sentence) |
 | [2599-take-k-of-each-character-from-left-and-right](https://github.com/sriraghu42/leetcode/tree/master/2599-take-k-of-each-character-from-left-and-right) |
+| [3451-string-compression-iii](https://github.com/sriraghu42/leetcode/tree/master/3451-string-compression-iii) |
 | [3502-count-substrings-with-k-frequency-characters-i](https://github.com/sriraghu42/leetcode/tree/master/3502-count-substrings-with-k-frequency-characters-i) |
 ## Hash Table
 |  |
