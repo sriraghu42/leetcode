@@ -66,6 +66,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0012-integer-to-roman](https://github.com/sriraghu42/leetcode/tree/master/0012-integer-to-roman) |
 | [0049-group-anagrams](https://github.com/sriraghu42/leetcode/tree/master/0049-group-anagrams) |
+| [0073-set-matrix-zeroes](https://github.com/sriraghu42/leetcode/tree/master/0073-set-matrix-zeroes) |
 | [0076-minimum-window-substring](https://github.com/sriraghu42/leetcode/tree/master/0076-minimum-window-substring) |
 | [0128-longest-consecutive-sequence](https://github.com/sriraghu42/leetcode/tree/master/0128-longest-consecutive-sequence) |
 | [0290-word-pattern](https://github.com/sriraghu42/leetcode/tree/master/0290-word-pattern) |
@@ -97,6 +98,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0054-spiral-matrix](https://github.com/sriraghu42/leetcode/tree/master/0054-spiral-matrix) |
 | [0056-merge-intervals](https://github.com/sriraghu42/leetcode/tree/master/0056-merge-intervals) |
 | [0066-plus-one](https://github.com/sriraghu42/leetcode/tree/master/0066-plus-one) |
+| [0073-set-matrix-zeroes](https://github.com/sriraghu42/leetcode/tree/master/0073-set-matrix-zeroes) |
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/sriraghu42/leetcode/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
 | [0128-longest-consecutive-sequence](https://github.com/sriraghu42/leetcode/tree/master/0128-longest-consecutive-sequence) |
 | [0130-surrounded-regions](https://github.com/sriraghu42/leetcode/tree/master/0130-surrounded-regions) |
@@ -235,6 +237,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0048-rotate-image](https://github.com/sriraghu42/leetcode/tree/master/0048-rotate-image) |
 | [0054-spiral-matrix](https://github.com/sriraghu42/leetcode/tree/master/0054-spiral-matrix) |
+| [0073-set-matrix-zeroes](https://github.com/sriraghu42/leetcode/tree/master/0073-set-matrix-zeroes) |
 | [0130-surrounded-regions](https://github.com/sriraghu42/leetcode/tree/master/0130-surrounded-regions) |
 | [0200-number-of-islands](https://github.com/sriraghu42/leetcode/tree/master/0200-number-of-islands) |
 | [0417-pacific-atlantic-water-flow](https://github.com/sriraghu42/leetcode/tree/master/0417-pacific-atlantic-water-flow) |
