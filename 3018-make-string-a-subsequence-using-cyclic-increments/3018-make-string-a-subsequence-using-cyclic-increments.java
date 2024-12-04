@@ -3,10 +3,12 @@ class Solution {
         int i = 0;
         int j = 0;
         while(i<str1.length()){
-            if(str1.charAt(i)==str2.charAt(j)) j++;
+            char char1 = str1.charAt(i);
+            char char2 = str2.charAt(j);
+            if(char1 == char2) j++;
             else{
-                if(str1.charAt(i)=='z' && str2.charAt(j)=='a') j++;
-                else if((char) (str1.charAt(i)+1)==str2.charAt(j)) j++;
+                if(char1 =='z' && char2 =='a') j++;
+                else if((char) (char1+1) == char2) j++;
             }
             i++;
             if(j==str2.length()) return true;
