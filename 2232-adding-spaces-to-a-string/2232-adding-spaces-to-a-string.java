@@ -4,12 +4,11 @@ class Solution {
         int i = 0;
         int j = 0;
         while(i<s.length()){
-            char ch = s.charAt(i);
             if(j<spaces.length && i==spaces[j]){
                 j++;
                 sb.append(" ");
             } 
-            sb.append(ch);
+            sb.append(s.charAt(i));
             i++;
         }
         return sb.toString();
