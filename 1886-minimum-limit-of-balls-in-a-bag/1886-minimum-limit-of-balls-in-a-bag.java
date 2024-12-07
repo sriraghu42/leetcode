@@ -9,7 +9,7 @@ class Solution {
             int k = i + (j-i)/2;
             int counter = 0;
             for(int num : nums){
-                counter+=Math.ceil((double) num/k)-1;
+                counter+= (num+k-1)/k-1;
             }
             if(counter<=maxOperations) j=k;
             else i=k+1;
