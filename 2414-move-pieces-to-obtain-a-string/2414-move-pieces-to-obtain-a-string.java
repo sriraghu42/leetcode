@@ -3,7 +3,7 @@ class Solution {
         int i = 0;
         int j = 0;
         int n = start.length();
-        while(i<n && j<n){
+        while(i<n || j<n){
             while(i<n && start.charAt(i)=='_') i++;
             while(j<n && target.charAt(j)=='_') j++;
             if(i>=n && j>=n) return true;
@@ -15,6 +15,7 @@ class Solution {
             i++;
             j++;
         }
+        /*
         if(i>=n){
             while(j<n && target.charAt(j)=='_') j++;
         }
@@ -22,6 +23,7 @@ class Solution {
             while(i<n && start.charAt(i)=='_') i++;
         }
         if(i>=n && j>=n) return true;
-        return false;
+        */
+        return true;
     }
 }
