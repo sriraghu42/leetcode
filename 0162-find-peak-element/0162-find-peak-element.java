@@ -12,6 +12,6 @@ class Solution {
             if(nums[k]>nums[k-1]) i = k+1;
             else j=k-1;
         }
-        return i;
+        return j;
     }
 }
