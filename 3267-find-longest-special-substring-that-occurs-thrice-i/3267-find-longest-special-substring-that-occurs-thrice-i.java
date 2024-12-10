@@ -12,7 +12,7 @@ class Solution {
 
         int ans = -1;
         for(Map.Entry<String,Integer> entry : map.entrySet()){
-            System.out.println("Key : "+entry.getKey()+" , Value : "+entry.getValue());
+            //System.out.println("Key : "+entry.getKey()+" , Value : "+entry.getValue());
             if(entry.getValue()>=3) ans = Math.max(ans,entry.getKey().length());
         }
         return ans;
