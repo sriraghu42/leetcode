@@ -6,13 +6,14 @@ class Solution {
         int i = 0;
         int j = 1;
         while(j<nums.length){
-            ans = Math.max(ans,j-i);
-            while(Math.abs(nums[j]-nums[i])>2*k){
-                i++;
-            }
+            if(Math.abs(nums[j]-nums[i])<=2*k) ans = Math.max(ans,j-i+1);
+            else{
+                while(Math.abs(nums[j]-nums[i])>2*k){
+                    i++;
+                }
+            }  
             j++;
         }
-        ans = Math.max(ans,j-i);
         return ans;
     }
 }
