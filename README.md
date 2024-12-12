@@ -144,6 +144,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2232-adding-spaces-to-a-string](https://github.com/sriraghu42/leetcode/tree/master/2232-adding-spaces-to-a-string) |
 | [2343-count-unguarded-cells-in-the-grid](https://github.com/sriraghu42/leetcode/tree/master/2343-count-unguarded-cells-in-the-grid) |
 | [2640-maximum-number-of-integers-to-choose-from-a-range-i](https://github.com/sriraghu42/leetcode/tree/master/2640-maximum-number-of-integers-to-choose-from-a-range-i) |
+| [2692-take-gifts-from-the-richest-pile](https://github.com/sriraghu42/leetcode/tree/master/2692-take-gifts-from-the-richest-pile) |
 | [2891-maximum-beauty-of-an-array-after-applying-operation](https://github.com/sriraghu42/leetcode/tree/master/2891-maximum-beauty-of-an-array-after-applying-operation) |
 | [3427-special-array-ii](https://github.com/sriraghu42/leetcode/tree/master/3427-special-array-ii) |
 | [3522-find-the-power-of-k-size-subarrays-i](https://github.com/sriraghu42/leetcode/tree/master/3522-find-the-power-of-k-size-subarrays-i) |
@@ -262,6 +263,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1127-last-stone-weight](https://github.com/sriraghu42/leetcode/tree/master/1127-last-stone-weight) |
 | [1463-the-k-weakest-rows-in-a-matrix](https://github.com/sriraghu42/leetcode/tree/master/1463-the-k-weakest-rows-in-a-matrix) |
 | [2164-two-best-non-overlapping-events](https://github.com/sriraghu42/leetcode/tree/master/2164-two-best-non-overlapping-events) |
+| [2692-take-gifts-from-the-richest-pile](https://github.com/sriraghu42/leetcode/tree/master/2692-take-gifts-from-the-richest-pile) |
 | [3610-find-x-sum-of-all-k-long-subarrays-i](https://github.com/sriraghu42/leetcode/tree/master/3610-find-x-sum-of-all-k-long-subarrays-i) |
 | [3627-find-minimum-time-to-reach-last-room-i](https://github.com/sriraghu42/leetcode/tree/master/3627-find-minimum-time-to-reach-last-room-i) |
 | [3628-find-minimum-time-to-reach-last-room-ii](https://github.com/sriraghu42/leetcode/tree/master/3628-find-minimum-time-to-reach-last-room-ii) |
@@ -375,6 +377,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0054-spiral-matrix](https://github.com/sriraghu42/leetcode/tree/master/0054-spiral-matrix) |
 | [2232-adding-spaces-to-a-string](https://github.com/sriraghu42/leetcode/tree/master/2232-adding-spaces-to-a-string) |
 | [2343-count-unguarded-cells-in-the-grid](https://github.com/sriraghu42/leetcode/tree/master/2343-count-unguarded-cells-in-the-grid) |
+| [2692-take-gifts-from-the-richest-pile](https://github.com/sriraghu42/leetcode/tree/master/2692-take-gifts-from-the-richest-pile) |
 ## Interactive
 |  |
 | ------- |
