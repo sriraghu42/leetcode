@@ -1,26 +1,29 @@
 class Solution {
     public String repeatLimitedString(String s, int repeatLimit) {
-        TreeMap<Character,Integer> treeMap = new TreeMap<>();
-        for(char ch: s.toCharArray()){
-            treeMap.put(ch,treeMap.getOrDefault(ch,0)+1);
+        int[] freq = new int[26];
+        for(char ch : s.toCharArray()){
+            freq[ch-'a']++;
+        }
+        PriorityQueue<int[]> pq = new PriorityQueue<>((a,b)->b[0]-a[0]);
+        for(int i=0; i<26; i++){
+            if(freq[i]>0) pq.add(new int[] {i,freq[i]});
         }
         StringBuilder sb = new StringBuilder();
-        while(!treeMap.isEmpty()){
-            Map.Entry<Character,Integer> entry = treeMap.lastEntry();
-            char key = entry.getKey();
-            int val = entry.getValue();
-            if(val<=repeatLimit){
-                for(int i=0; i<val; i++) sb.append(key);
-                treeMap.remove(key);
+        while(!pq.isEmpty()){
+            int[] highest = pq.poll();
+            char key = (char) (highest[0]+'a');
+            int count = highest[1];
+            int limit = Math.min(count,repeatLimit);
+            for(int i=0; i<limit; i++){
+                sb.append(key);
             }
-            else{
-                for(int i=0; i<repeatLimit; i++) sb.append(key);
-                treeMap.put(key,val-repeatLimit);
-                if(treeMap.size()==1) break;
-                char lowKey = treeMap.lowerKey(key);
-                sb.append(lowKey);
-                treeMap.put(lowKey,treeMap.get(lowKey)-1);
-                if(treeMap.get(lowKey)==0) treeMap.remove(lowKey);
+            count-=limit;
+            if(count>0){
+                if(pq.isEmpty()) break;
+                int[] secondHighest = pq.poll();
+                sb.append((char) (secondHighest[0]+'a'));
+                if(secondHighest[1]>1) pq.add(new int[] {secondHighest[0],secondHighest[1]-1});
+                pq.add(new int[] {highest[0],count});
             }
         }
         return sb.toString();
