@@ -1,28 +1,25 @@
 class Solution {
     public double maxAverageRatio(int[][] classes, int extraStudents) {
-        PriorityQueue<int[]> pq = new PriorityQueue<>((a,b)->{
-            double newA = (a[0]+1)/(double) (a[1]+1);
-            double increaseInA = newA - (a[0]/(double) a[1]);
-            double newB = (b[0]+1)/(double) (b[1]+1);
-            double increaseInB = newB - (b[0]/(double) b[1]);
-            return Double.compare(increaseInB,increaseInA);
+        PriorityQueue<double[]> pq = new PriorityQueue<>((a,b)->{
+            return Double.compare(b[0],a[0]);
         });
         for(int[] clazz : classes){
-            pq.add(clazz);
+            double increase = ((clazz[0]+1)/(double) (clazz[1]+1)) - ((clazz[0]/(double) clazz[1]));
+            pq.add(new double[] {increase,clazz[0],clazz[1]});
         }
         while(extraStudents>0){
-            int[] clazz = pq.poll();
-            clazz[0]++;
+            double[] clazz = pq.poll();
             clazz[1]++;
-            pq.add(clazz);
+            clazz[2]++;
+            double increase = ((clazz[1]+1)/(double) (clazz[2]+1)) - ((clazz[1]/(double) clazz[2]));
+            pq.add(new double[] {increase,clazz[1],clazz[2]});
             extraStudents--;
         }
-        int size = pq.size();
         double sum = 0;
         while(!pq.isEmpty()){
-            int[] clazz = pq.poll();
-            sum+= (clazz[0]/(double) clazz[1]);
+            double[] clazz = pq.poll();
+            sum+= (clazz[1]/(double) clazz[2]);
         }
-        return sum/(double) size;
+        return sum/classes.length;
     }
 }
