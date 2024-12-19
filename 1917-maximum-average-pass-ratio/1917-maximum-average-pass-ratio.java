@@ -12,7 +12,9 @@ class Solution {
         }
         while(extraStudents>0){
             int[] clazz = pq.poll();
-            pq.add(new int[] {clazz[0]+1,clazz[1]+1});
+            clazz[0]++;
+            clazz[1]++;
+            pq.add(clazz);
             extraStudents--;
         }
         int size = pq.size();
