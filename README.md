@@ -460,4 +460,5 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0619-biggest-single-number](https://github.com/sriraghu42/leetcode/tree/master/0619-biggest-single-number) |
+| [1773-percentage-of-users-attended-a-contest](https://github.com/sriraghu42/leetcode/tree/master/1773-percentage-of-users-attended-a-contest) |
 <!---LeetCode Topics End-->
