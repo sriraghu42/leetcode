@@ -25,6 +25,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1036-rotting-oranges](https://github.com/sriraghu42/leetcode/tree/master/1036-rotting-oranges) |
 | [2493-reverse-odd-levels-of-binary-tree](https://github.com/sriraghu42/leetcode/tree/master/2493-reverse-odd-levels-of-binary-tree) |
 | [2558-minimum-number-of-operations-to-sort-a-binary-tree-by-level](https://github.com/sriraghu42/leetcode/tree/master/2558-minimum-number-of-operations-to-sort-a-binary-tree-by-level) |
+| [2764-maximum-number-of-fish-in-a-grid](https://github.com/sriraghu42/leetcode/tree/master/2764-maximum-number-of-fish-in-a-grid) |
 ## Binary Tree
 |  |
 | ------- |
@@ -171,6 +172,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2691-count-vowel-strings-in-ranges](https://github.com/sriraghu42/leetcode/tree/master/2691-count-vowel-strings-in-ranges) |
 | [2692-take-gifts-from-the-richest-pile](https://github.com/sriraghu42/leetcode/tree/master/2692-take-gifts-from-the-richest-pile) |
 | [2695-find-score-of-an-array-after-marking-all-elements](https://github.com/sriraghu42/leetcode/tree/master/2695-find-score-of-an-array-after-marking-all-elements) |
+| [2764-maximum-number-of-fish-in-a-grid](https://github.com/sriraghu42/leetcode/tree/master/2764-maximum-number-of-fish-in-a-grid) |
 | [2868-continuous-subarrays](https://github.com/sriraghu42/leetcode/tree/master/2868-continuous-subarrays) |
 | [2891-maximum-beauty-of-an-array-after-applying-operation](https://github.com/sriraghu42/leetcode/tree/master/2891-maximum-beauty-of-an-array-after-applying-operation) |
 | [3427-special-array-ii](https://github.com/sriraghu42/leetcode/tree/master/3427-special-array-ii) |
@@ -204,6 +206,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0695-max-area-of-island](https://github.com/sriraghu42/leetcode/tree/master/0695-max-area-of-island) |
 | [0733-flood-fill](https://github.com/sriraghu42/leetcode/tree/master/0733-flood-fill) |
 | [2493-reverse-odd-levels-of-binary-tree](https://github.com/sriraghu42/leetcode/tree/master/2493-reverse-odd-levels-of-binary-tree) |
+| [2764-maximum-number-of-fish-in-a-grid](https://github.com/sriraghu42/leetcode/tree/master/2764-maximum-number-of-fish-in-a-grid) |
 ## Binary Search Tree
 |  |
 | ------- |
@@ -331,6 +334,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1972-rotating-the-box](https://github.com/sriraghu42/leetcode/tree/master/1972-rotating-the-box) |
 | [2089-maximum-matrix-sum](https://github.com/sriraghu42/leetcode/tree/master/2089-maximum-matrix-sum) |
 | [2343-count-unguarded-cells-in-the-grid](https://github.com/sriraghu42/leetcode/tree/master/2343-count-unguarded-cells-in-the-grid) |
+| [2764-maximum-number-of-fish-in-a-grid](https://github.com/sriraghu42/leetcode/tree/master/2764-maximum-number-of-fish-in-a-grid) |
 | [3627-find-minimum-time-to-reach-last-room-i](https://github.com/sriraghu42/leetcode/tree/master/3627-find-minimum-time-to-reach-last-room-i) |
 | [3628-find-minimum-time-to-reach-last-room-ii](https://github.com/sriraghu42/leetcode/tree/master/3628-find-minimum-time-to-reach-last-room-ii) |
 ## Sliding Window
@@ -385,6 +389,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0130-surrounded-regions](https://github.com/sriraghu42/leetcode/tree/master/0130-surrounded-regions) |
 | [0200-number-of-islands](https://github.com/sriraghu42/leetcode/tree/master/0200-number-of-islands) |
 | [0695-max-area-of-island](https://github.com/sriraghu42/leetcode/tree/master/0695-max-area-of-island) |
+| [2764-maximum-number-of-fish-in-a-grid](https://github.com/sriraghu42/leetcode/tree/master/2764-maximum-number-of-fish-in-a-grid) |
 ## Number Theory
 |  |
 | ------- |
