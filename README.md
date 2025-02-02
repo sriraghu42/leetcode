@@ -22,6 +22,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0463-island-perimeter](https://github.com/sriraghu42/leetcode/tree/master/0463-island-perimeter) |
 | [0695-max-area-of-island](https://github.com/sriraghu42/leetcode/tree/master/0695-max-area-of-island) |
 | [0733-flood-fill](https://github.com/sriraghu42/leetcode/tree/master/0733-flood-fill) |
+| [0854-making-a-large-island](https://github.com/sriraghu42/leetcode/tree/master/0854-making-a-large-island) |
 | [1036-rotting-oranges](https://github.com/sriraghu42/leetcode/tree/master/1036-rotting-oranges) |
 | [2493-reverse-odd-levels-of-binary-tree](https://github.com/sriraghu42/leetcode/tree/master/2493-reverse-odd-levels-of-binary-tree) |
 | [2558-minimum-number-of-operations-to-sort-a-binary-tree-by-level](https://github.com/sriraghu42/leetcode/tree/master/2558-minimum-number-of-operations-to-sort-a-binary-tree-by-level) |
@@ -144,6 +145,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0740-delete-and-earn](https://github.com/sriraghu42/leetcode/tree/master/0740-delete-and-earn) |
 | [0747-min-cost-climbing-stairs](https://github.com/sriraghu42/leetcode/tree/master/0747-min-cost-climbing-stairs) |
 | [0780-max-chunks-to-make-sorted](https://github.com/sriraghu42/leetcode/tree/master/0780-max-chunks-to-make-sorted) |
+| [0854-making-a-large-island](https://github.com/sriraghu42/leetcode/tree/master/0854-making-a-large-island) |
 | [0882-peak-index-in-a-mountain-array](https://github.com/sriraghu42/leetcode/tree/master/0882-peak-index-in-a-mountain-array) |
 | [0907-koko-eating-bananas](https://github.com/sriraghu42/leetcode/tree/master/0907-koko-eating-bananas) |
 | [1014-k-closest-points-to-origin](https://github.com/sriraghu42/leetcode/tree/master/1014-k-closest-points-to-origin) |
@@ -207,6 +209,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0463-island-perimeter](https://github.com/sriraghu42/leetcode/tree/master/0463-island-perimeter) |
 | [0695-max-area-of-island](https://github.com/sriraghu42/leetcode/tree/master/0695-max-area-of-island) |
 | [0733-flood-fill](https://github.com/sriraghu42/leetcode/tree/master/0733-flood-fill) |
+| [0854-making-a-large-island](https://github.com/sriraghu42/leetcode/tree/master/0854-making-a-large-island) |
 | [2493-reverse-odd-levels-of-binary-tree](https://github.com/sriraghu42/leetcode/tree/master/2493-reverse-odd-levels-of-binary-tree) |
 | [2764-maximum-number-of-fish-in-a-grid](https://github.com/sriraghu42/leetcode/tree/master/2764-maximum-number-of-fish-in-a-grid) |
 ## Binary Search Tree
@@ -329,6 +332,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0463-island-perimeter](https://github.com/sriraghu42/leetcode/tree/master/0463-island-perimeter) |
 | [0695-max-area-of-island](https://github.com/sriraghu42/leetcode/tree/master/0695-max-area-of-island) |
 | [0733-flood-fill](https://github.com/sriraghu42/leetcode/tree/master/0733-flood-fill) |
+| [0854-making-a-large-island](https://github.com/sriraghu42/leetcode/tree/master/0854-making-a-large-island) |
 | [1036-rotting-oranges](https://github.com/sriraghu42/leetcode/tree/master/1036-rotting-oranges) |
 | [1147-flip-columns-for-maximum-number-of-equal-rows](https://github.com/sriraghu42/leetcode/tree/master/1147-flip-columns-for-maximum-number-of-equal-rows) |
 | [1331-path-with-maximum-gold](https://github.com/sriraghu42/leetcode/tree/master/1331-path-with-maximum-gold) |
@@ -391,6 +395,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0130-surrounded-regions](https://github.com/sriraghu42/leetcode/tree/master/0130-surrounded-regions) |
 | [0200-number-of-islands](https://github.com/sriraghu42/leetcode/tree/master/0200-number-of-islands) |
 | [0695-max-area-of-island](https://github.com/sriraghu42/leetcode/tree/master/0695-max-area-of-island) |
+| [0854-making-a-large-island](https://github.com/sriraghu42/leetcode/tree/master/0854-making-a-large-island) |
 | [2764-maximum-number-of-fish-in-a-grid](https://github.com/sriraghu42/leetcode/tree/master/2764-maximum-number-of-fish-in-a-grid) |
 ## Number Theory
 |  |
