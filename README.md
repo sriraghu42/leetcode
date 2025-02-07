@@ -102,6 +102,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2640-maximum-number-of-integers-to-choose-from-a-range-i](https://github.com/sriraghu42/leetcode/tree/master/2640-maximum-number-of-integers-to-choose-from-a-range-i) |
 | [2695-find-score-of-an-array-after-marking-all-elements](https://github.com/sriraghu42/leetcode/tree/master/2695-find-score-of-an-array-after-marking-all-elements) |
 | [3267-find-longest-special-substring-that-occurs-thrice-i](https://github.com/sriraghu42/leetcode/tree/master/3267-find-longest-special-substring-that-occurs-thrice-i) |
+| [3434-find-the-number-of-distinct-colors-among-the-balls](https://github.com/sriraghu42/leetcode/tree/master/3434-find-the-number-of-distinct-colors-among-the-balls) |
 | [3502-count-substrings-with-k-frequency-characters-i](https://github.com/sriraghu42/leetcode/tree/master/3502-count-substrings-with-k-frequency-characters-i) |
 | [3610-find-x-sum-of-all-k-long-subarrays-i](https://github.com/sriraghu42/leetcode/tree/master/3610-find-x-sum-of-all-k-long-subarrays-i) |
 ## Math
@@ -185,6 +186,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2868-continuous-subarrays](https://github.com/sriraghu42/leetcode/tree/master/2868-continuous-subarrays) |
 | [2891-maximum-beauty-of-an-array-after-applying-operation](https://github.com/sriraghu42/leetcode/tree/master/2891-maximum-beauty-of-an-array-after-applying-operation) |
 | [3427-special-array-ii](https://github.com/sriraghu42/leetcode/tree/master/3427-special-array-ii) |
+| [3434-find-the-number-of-distinct-colors-among-the-balls](https://github.com/sriraghu42/leetcode/tree/master/3434-find-the-number-of-distinct-colors-among-the-balls) |
 | [3522-find-the-power-of-k-size-subarrays-i](https://github.com/sriraghu42/leetcode/tree/master/3522-find-the-power-of-k-size-subarrays-i) |
 | [3523-find-the-power-of-k-size-subarrays-ii](https://github.com/sriraghu42/leetcode/tree/master/3523-find-the-power-of-k-size-subarrays-ii) |
 | [3555-final-array-state-after-k-multiplication-operations-i](https://github.com/sriraghu42/leetcode/tree/master/3555-final-array-state-after-k-multiplication-operations-i) |
@@ -448,6 +450,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2343-count-unguarded-cells-in-the-grid](https://github.com/sriraghu42/leetcode/tree/master/2343-count-unguarded-cells-in-the-grid) |
 | [2692-take-gifts-from-the-richest-pile](https://github.com/sriraghu42/leetcode/tree/master/2692-take-gifts-from-the-richest-pile) |
 | [2695-find-score-of-an-array-after-marking-all-elements](https://github.com/sriraghu42/leetcode/tree/master/2695-find-score-of-an-array-after-marking-all-elements) |
+| [3434-find-the-number-of-distinct-colors-among-the-balls](https://github.com/sriraghu42/leetcode/tree/master/3434-find-the-number-of-distinct-colors-among-the-balls) |
 | [3555-final-array-state-after-k-multiplication-operations-i](https://github.com/sriraghu42/leetcode/tree/master/3555-final-array-state-after-k-multiplication-operations-i) |
 ## Interactive
 |  |
