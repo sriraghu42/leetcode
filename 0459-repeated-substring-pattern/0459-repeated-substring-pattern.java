@@ -5,11 +5,9 @@ class Solution {
         while(len<=length/2){
             int j = 0;
             String sub = s.substring(0,len);
-            while(j<=length-len){
-                if(!s.substring(j,j+len).equals(sub)) break;
-                j+=len;
-                if(j>=length) return true;
-            }
+            StringBuilder sb = new StringBuilder();
+            for(int i=0; i<length/len; i++) sb.append(sub);
+            if(sb.toString().equals(s)) return true;
             len++;
         }
         return false;
