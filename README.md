@@ -98,6 +98,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1915-check-if-one-string-swap-can-make-strings-equal](https://github.com/sriraghu42/leetcode/tree/master/1915-check-if-one-string-swap-can-make-strings-equal) |
 | [2059-unique-length-3-palindromic-subsequences](https://github.com/sriraghu42/leetcode/tree/master/2059-unique-length-3-palindromic-subsequences) |
 | [2300-construct-string-with-repeat-limit](https://github.com/sriraghu42/leetcode/tree/master/2300-construct-string-with-repeat-limit) |
+| [2434-design-a-number-container-system](https://github.com/sriraghu42/leetcode/tree/master/2434-design-a-number-container-system) |
 | [2599-take-k-of-each-character-from-left-and-right](https://github.com/sriraghu42/leetcode/tree/master/2599-take-k-of-each-character-from-left-and-right) |
 | [2640-maximum-number-of-integers-to-choose-from-a-range-i](https://github.com/sriraghu42/leetcode/tree/master/2640-maximum-number-of-integers-to-choose-from-a-range-i) |
 | [2695-find-score-of-an-array-after-marking-all-elements](https://github.com/sriraghu42/leetcode/tree/master/2695-find-score-of-an-array-after-marking-all-elements) |
@@ -317,6 +318,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1917-maximum-average-pass-ratio](https://github.com/sriraghu42/leetcode/tree/master/1917-maximum-average-pass-ratio) |
 | [2164-two-best-non-overlapping-events](https://github.com/sriraghu42/leetcode/tree/master/2164-two-best-non-overlapping-events) |
 | [2300-construct-string-with-repeat-limit](https://github.com/sriraghu42/leetcode/tree/master/2300-construct-string-with-repeat-limit) |
+| [2434-design-a-number-container-system](https://github.com/sriraghu42/leetcode/tree/master/2434-design-a-number-container-system) |
 | [2692-take-gifts-from-the-richest-pile](https://github.com/sriraghu42/leetcode/tree/master/2692-take-gifts-from-the-richest-pile) |
 | [2695-find-score-of-an-array-after-marking-all-elements](https://github.com/sriraghu42/leetcode/tree/master/2695-find-score-of-an-array-after-marking-all-elements) |
 | [2868-continuous-subarrays](https://github.com/sriraghu42/leetcode/tree/master/2868-continuous-subarrays) |
@@ -470,6 +472,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Ordered Set
 |  |
 | ------- |
+| [2434-design-a-number-container-system](https://github.com/sriraghu42/leetcode/tree/master/2434-design-a-number-container-system) |
 | [2868-continuous-subarrays](https://github.com/sriraghu42/leetcode/tree/master/2868-continuous-subarrays) |
 ## Monotonic Queue
 |  |
@@ -485,4 +488,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0619-biggest-single-number](https://github.com/sriraghu42/leetcode/tree/master/0619-biggest-single-number) |
 | [1773-percentage-of-users-attended-a-contest](https://github.com/sriraghu42/leetcode/tree/master/1773-percentage-of-users-attended-a-contest) |
+## Design
+|  |
+| ------- |
+| [2434-design-a-number-container-system](https://github.com/sriraghu42/leetcode/tree/master/2434-design-a-number-container-system) |
 <!---LeetCode Topics End-->
