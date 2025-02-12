@@ -1,28 +1,18 @@
 class Solution {
     public int maximumSum(int[] nums) {
-        Map<Integer,List<Integer>> map = new HashMap<>();
+        Map<Integer,PriorityQueue<Integer>> map = new HashMap<>();
         for(int num : nums){
             int sum = sumOfDigits(num);
-            map.putIfAbsent(sum,new ArrayList<>());
-            map.get(sum).add(num);
+            map.putIfAbsent(sum,new PriorityQueue<>((a,b) -> a-b));
+            PriorityQueue pq = map.get(sum);
+            pq.offer(num);
+            if(pq.size()>2) pq.poll();
         }
 
         int ans = -1;
-        for(List<Integer> numList : map.values()){
-            if(numList.size()>1){
-                int firstMax = -1;
-                int secondMax = -1;
-                for(int num : numList){
-                    if(num>firstMax){
-                        secondMax = firstMax;
-                        firstMax = num;
-                    }
-                    else if(num>secondMax){
-                        secondMax = num;
-                    }
-                    else continue;
-                }
-                ans = Math.max(ans, firstMax+secondMax);
+        for(PriorityQueue<Integer> pq : map.values()){
+            if(pq.size()>1){
+                ans = Math.max(pq.poll()+pq.poll(),ans);
             }
         }
         return ans;
