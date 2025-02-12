@@ -3,12 +3,8 @@ class Solution {
         Map<Integer,List<Integer>> map = new HashMap<>();
         for(int num : nums){
             int sum = sumOfDigits(num);
-            if(map.containsKey(sum)){
-                List<Integer> list = map.get(sum);
-                list.add(num);
-                map.put(sum,list);
-            }
-            else map.put(sum, new ArrayList<>(List.of(num)));
+            map.putIfAbsent(sum,new ArrayList<>());
+            map.get(sum).add(num);
         }
 
         int ans = -1;
