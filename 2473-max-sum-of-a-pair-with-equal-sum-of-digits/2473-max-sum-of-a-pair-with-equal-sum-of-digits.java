@@ -10,8 +10,19 @@ class Solution {
         int ans = -1;
         for(List<Integer> numList : map.values()){
             if(numList.size()>1){
-                numList.sort((a,b) -> b-a);
-                ans = Math.max(ans, numList.get(0)+numList.get(1));
+                int firstMax = -1;
+                int secondMax = -1;
+                for(int num : numList){
+                    if(num>firstMax){
+                        secondMax = firstMax;
+                        firstMax = num;
+                    }
+                    else if(num>secondMax){
+                        secondMax = num;
+                    }
+                    else continue;
+                }
+                ans = Math.max(ans, firstMax+secondMax);
             }
         }
         return ans;
