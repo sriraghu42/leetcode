@@ -1,30 +1,22 @@
 class Solution {
-    Set<String> set = new HashSet<>();
+    int count = 0;
     public int numTilePossibilities(String tiles) {
         char[] charArr = tiles.toCharArray();
         Arrays.sort(charArr);
-        StringBuilder sb = new StringBuilder();
         int len = charArr.length;
         boolean[] visited = new boolean[len];
-        helperRec(charArr,visited,sb,len);
-        return set.size();
+        helperRec(charArr,visited,len);
+        return count;
     }
 
-    public void helperRec(char[] charArr, boolean[] visited, StringBuilder chosen, int len){
-        if(chosen.length()==len) return;
+    public void helperRec(char[] charArr, boolean[] visited, int len){
         for(int i=0; i<len; i++){
-            if(i>0 && charArr[i]==charArr[i-1] && !visited[i-1]) continue;
             if(!visited[i]){
+                if(i>0 && charArr[i]==charArr[i-1] && !visited[i-1]) continue;
                 visited[i] = true;
-                char ch = charArr[i];
-                chosen.append(ch);
-                String temp = chosen.toString();
-                if(!set.contains(temp)){
-                    set.add(temp);
-                    helperRec(charArr,visited,chosen,len);
-                } 
+                count++;
+                helperRec(charArr,visited,len);
                 visited[i] = false;
-                chosen.deleteCharAt(chosen.length()-1);
             }
         }
     }
