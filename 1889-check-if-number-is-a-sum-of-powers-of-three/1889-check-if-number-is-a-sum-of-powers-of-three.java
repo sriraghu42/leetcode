@@ -1,6 +1,4 @@
 class Solution {
-    boolean found = false;
-    int sum = 0;
     public boolean checkPowersOfThree(int n) {
         List<Integer> threeList = new ArrayList<>();
         int val = 1;
@@ -9,23 +7,13 @@ class Solution {
             val*=3;
         }
         int size = threeList.size();
-        helperRec(n,threeList,size,0);
-        return found;
+        int sum = 0;
+        for(int i=size-1; i>=0; i--){
+            sum+=threeList.get(i);
+            if(sum>n) sum-=threeList.get(i);
+            else if(sum==n) return true;
+        }
+        return false;
     }
 
-    public void helperRec(int n, List<Integer> threeList,int size, int index){
-        if(sum==n){
-            found = true;
-            return;
-        }
-        if(index>=size) return;
-        for(int i=index; i<size; i++){
-            if(!found) helperRec(n,threeList,size,i+1);
-            else return;
-            sum+=threeList.get(i);
-            if(!found) helperRec(n,threeList,size,i+1);
-            else return;
-            sum-=threeList.get(i);
-        }
-    }
 }
