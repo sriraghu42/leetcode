@@ -6,7 +6,7 @@ class Solution {
             list.add(new Triple(i,nums1[i],nums2[i]));
         }
         list.sort((a,b) -> a.i - b.i);
-        for(Triple triple : list) System.out.println(triple.index + " : " + triple.i +" : " + triple.j);
+        //for(Triple triple : list) System.out.println(triple.index + " : " + triple.i +" : " + triple.j);
         PriorityQueue<Integer> pq = new PriorityQueue<>(k);
         long sum = 0;
         for(int m=0; m<list.size(); m++){
