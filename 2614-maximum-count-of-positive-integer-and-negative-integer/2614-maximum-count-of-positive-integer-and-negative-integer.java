@@ -9,7 +9,6 @@ class Solution {
             if(nums[k]<=0) i=k+1;
             else{
                 if(k==0 || nums[k-1]<=0){
-                    System.out.println(k);
                     posCount = nums.length - k;
                     break;
                 } 
@@ -24,7 +23,6 @@ class Solution {
             else{
                 if(k==nums.length -1|| nums[k+1]>=0){
                     negCount = k+1;
-                    System.out.println(k);
                     break;
                 } 
                 else i=k+1;
