@@ -99,6 +99,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2599-take-k-of-each-character-from-left-and-right](https://github.com/sriraghu42/leetcode/tree/master/2599-take-k-of-each-character-from-left-and-right) |
 | [2691-count-vowel-strings-in-ranges](https://github.com/sriraghu42/leetcode/tree/master/2691-count-vowel-strings-in-ranges) |
 | [3018-make-string-a-subsequence-using-cyclic-increments](https://github.com/sriraghu42/leetcode/tree/master/3018-make-string-a-subsequence-using-cyclic-increments) |
+| [3195-separate-black-and-white-balls](https://github.com/sriraghu42/leetcode/tree/master/3195-separate-black-and-white-balls) |
 | [3267-find-longest-special-substring-that-occurs-thrice-i](https://github.com/sriraghu42/leetcode/tree/master/3267-find-longest-special-substring-that-occurs-thrice-i) |
 | [3447-clear-digits](https://github.com/sriraghu42/leetcode/tree/master/3447-clear-digits) |
 | [3451-string-compression-iii](https://github.com/sriraghu42/leetcode/tree/master/3451-string-compression-iii) |
@@ -347,6 +348,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2414-move-pieces-to-obtain-a-string](https://github.com/sriraghu42/leetcode/tree/master/2414-move-pieces-to-obtain-a-string) |
 | [2707-merge-two-2d-arrays-by-summing-values](https://github.com/sriraghu42/leetcode/tree/master/2707-merge-two-2d-arrays-by-summing-values) |
 | [3018-make-string-a-subsequence-using-cyclic-increments](https://github.com/sriraghu42/leetcode/tree/master/3018-make-string-a-subsequence-using-cyclic-increments) |
+| [3195-separate-black-and-white-balls](https://github.com/sriraghu42/leetcode/tree/master/3195-separate-black-and-white-balls) |
 ## String Matching
 |  |
 | ------- |
@@ -483,6 +485,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2300-construct-string-with-repeat-limit](https://github.com/sriraghu42/leetcode/tree/master/2300-construct-string-with-repeat-limit) |
 | [2456-construct-smallest-number-from-di-string](https://github.com/sriraghu42/leetcode/tree/master/2456-construct-smallest-number-from-di-string) |
 | [2640-maximum-number-of-integers-to-choose-from-a-range-i](https://github.com/sriraghu42/leetcode/tree/master/2640-maximum-number-of-integers-to-choose-from-a-range-i) |
+| [3195-separate-black-and-white-balls](https://github.com/sriraghu42/leetcode/tree/master/3195-separate-black-and-white-balls) |
 | [3607-minimum-division-operations-to-make-array-non-decreasing](https://github.com/sriraghu42/leetcode/tree/master/3607-minimum-division-operations-to-make-array-non-decreasing) |
 ## Trie
 |  |
