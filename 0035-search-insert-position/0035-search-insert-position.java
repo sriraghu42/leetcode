@@ -5,8 +5,8 @@ class Solution {
         while(i<=j){
             int k = (i+j)/2;
             if(nums[k]==target) return k;
-            else if(nums[k]>target) j--;
-            else i++;
+            else if(nums[k]>target) j=k-1;
+            else i=k+1;
         }
         return i;
     }
