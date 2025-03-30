@@ -14,7 +14,7 @@ class Solution {
             ans.add(chosen.toString());
             return;
         } 
-        System.out.println(chosen.toString());
+        //System.out.println(chosen.toString());
         if(openCount<n){
             chosen.append('(');
             openCount++;
