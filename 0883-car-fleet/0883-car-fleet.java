@@ -1,18 +1,17 @@
 class Solution {
     public int carFleet(int target, int[] position, int[] speed) {
-        Map<Integer,Double> map = new HashMap<>();
+        List<double[]> list = new ArrayList<>();
         for(int i=0; i<position.length; i++){
             double value = (target - position[i])/ (double) speed[i];
-            map.put(position[i],value);
+            list.add(new double[] {position[i],value});
         }
-        List<Map.Entry<Integer,Double>> list = new ArrayList<>(map.entrySet());
-        list.sort((a,b)-> b.getKey()-a.getKey());
-        double compValue = list.get(0).getValue();
-        int ans = 1;
-        for(Map.Entry<Integer,Double> entry : list){
-            if(entry.getValue()<=compValue) continue;
+        list.sort((a,b)-> Double.compare(b[0],a[0]));
+        double compValue = -1;
+        int ans = 0;
+        for(double[] entry : list){
+            if(entry[1]<=compValue) continue;
             ans++;
-            compValue = entry.getValue();
+            compValue = entry[1];
         }
         return ans;
     }
