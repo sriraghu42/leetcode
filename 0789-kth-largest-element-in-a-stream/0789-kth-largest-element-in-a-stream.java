@@ -4,12 +4,19 @@ class KthLargest {
     public KthLargest(int k, int[] nums) {
         nth = k;
         for(int num : nums) list.add(num);
+        list.sort(null);
     }
     
     public int add(int val) {
-        list.add(val);
-        list.sort((a,b) -> b-a);
-        return list.get(nth-1);
+        int i = 0;
+        int j = list.size()-1;
+        while(i<=j){
+            int k = i+(j-i)/2;
+            if(list.get(k)>=val) j--;
+            else i++;
+        }
+        list.add(i,val);
+        return list.get(list.size()-nth);
     }
 }
 
