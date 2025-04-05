@@ -1,30 +1,29 @@
 class Solution {
-    public String minWindow(String s, String t) {
-        if(s.length()<t.length()) return "";
-        int start = 0;
-        int length = Integer.MAX_VALUE;
-        int[] arr = new int[128];
-        int count = t.length();
-        for(char ch : t.toCharArray()){
-            arr[ch]++;
+    public boolean isValid(Map<Character,Integer> sMap, Map<Character,Integer> tMap){
+        for(char ch : tMap.keySet()){
+            if(!sMap.containsKey(ch) || sMap.get(ch)<tMap.get(ch)) return false;
         }
+        return true;
+    }
+    public String minWindow(String s, String t) {
+        String ans = "";
+        if(t.length()>s.length()) return ans;
+        Map<Character,Integer> tMap = new HashMap<>();
+        for(char ch : t.toCharArray()) tMap.put(ch,tMap.getOrDefault(ch,0)+1);
         int i = 0;
         int j = 0;
+        Map<Character,Integer> sMap = new HashMap<>();
         while(j<s.length()){
             char ch = s.charAt(j);
-            arr[ch]--;
-            if(arr[ch]>=0) count--;
-            while(count==0){
-                if(length>j-i+1){
-                    start = i;
-                    length = j-i+1;
-                } 
-                arr[s.charAt(i)]++;
-                if(arr[s.charAt(i)] > 0) count++;
+            sMap.put(ch,sMap.getOrDefault(ch,0)+1);
+            while(j-i+1>=t.length() && isValid(sMap,tMap)){
+                if(ans=="" || ans.length()>j-i+1) ans = s.substring(i,j+1);
+                char iCh = s.charAt(i);
+                sMap.put(iCh,sMap.get(iCh)-1);
                 i++;
             }
             j++;
         }
-        return length!=Integer.MAX_VALUE?s.substring(start,start+length):"";
+        return ans;
     }
 }
