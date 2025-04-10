@@ -157,6 +157,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3502-count-substrings-with-k-frequency-characters-i](https://github.com/sriraghu42/leetcode/tree/master/3502-count-substrings-with-k-frequency-characters-i) |
 | [3569-count-of-substrings-containing-every-vowel-and-k-consonants-ii](https://github.com/sriraghu42/leetcode/tree/master/3569-count-of-substrings-containing-every-vowel-and-k-consonants-ii) |
 | [3610-find-x-sum-of-all-k-long-subarrays-i](https://github.com/sriraghu42/leetcode/tree/master/3610-find-x-sum-of-all-k-long-subarrays-i) |
+| [3621-minimum-operations-to-make-array-values-equal-to-k](https://github.com/sriraghu42/leetcode/tree/master/3621-minimum-operations-to-make-array-values-equal-to-k) |
 ## Math
 |  |
 | ------- |
@@ -277,6 +278,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3607-minimum-division-operations-to-make-array-non-decreasing](https://github.com/sriraghu42/leetcode/tree/master/3607-minimum-division-operations-to-make-array-non-decreasing) |
 | [3610-find-x-sum-of-all-k-long-subarrays-i](https://github.com/sriraghu42/leetcode/tree/master/3610-find-x-sum-of-all-k-long-subarrays-i) |
 | [3612-adjacent-increasing-subarrays-detection-i](https://github.com/sriraghu42/leetcode/tree/master/3612-adjacent-increasing-subarrays-detection-i) |
+| [3621-minimum-operations-to-make-array-values-equal-to-k](https://github.com/sriraghu42/leetcode/tree/master/3621-minimum-operations-to-make-array-values-equal-to-k) |
 | [3627-find-minimum-time-to-reach-last-room-i](https://github.com/sriraghu42/leetcode/tree/master/3627-find-minimum-time-to-reach-last-room-i) |
 | [3628-find-minimum-time-to-reach-last-room-ii](https://github.com/sriraghu42/leetcode/tree/master/3628-find-minimum-time-to-reach-last-room-ii) |
 | [3643-zero-array-transformation-ii](https://github.com/sriraghu42/leetcode/tree/master/3643-zero-array-transformation-ii) |
