@@ -3,13 +3,12 @@ class Solution {
         Map<Integer,Integer> map = new HashMap<>();
         map.put(0,1);
         int sum = 0;
-        int ans = 0;
+        int counter = 0;
         for(int num : nums){
             sum+=num;
-            int value = sum - k;
-            if(map.containsKey(value)) ans+=map.get(value);
+            if(map.containsKey(sum-k)) counter+=map.get(sum-k);
             map.put(sum,map.getOrDefault(sum,0)+1);
         }
-        return ans;
+        return counter;
     }
 }
