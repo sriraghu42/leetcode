@@ -147,6 +147,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2434-design-a-number-container-system](https://github.com/sriraghu42/leetcode/tree/master/2434-design-a-number-container-system) |
 | [2448-count-number-of-bad-pairs](https://github.com/sriraghu42/leetcode/tree/master/2448-count-number-of-bad-pairs) |
 | [2473-max-sum-of-a-pair-with-equal-sum-of-digits](https://github.com/sriraghu42/leetcode/tree/master/2473-max-sum-of-a-pair-with-equal-sum-of-digits) |
+| [2552-maximum-sum-of-distinct-subarrays-with-length-k](https://github.com/sriraghu42/leetcode/tree/master/2552-maximum-sum-of-distinct-subarrays-with-length-k) |
 | [2599-take-k-of-each-character-from-left-and-right](https://github.com/sriraghu42/leetcode/tree/master/2599-take-k-of-each-character-from-left-and-right) |
 | [2640-maximum-number-of-integers-to-choose-from-a-range-i](https://github.com/sriraghu42/leetcode/tree/master/2640-maximum-number-of-integers-to-choose-from-a-range-i) |
 | [2695-find-score-of-an-array-after-marking-all-elements](https://github.com/sriraghu42/leetcode/tree/master/2695-find-score-of-an-array-after-marking-all-elements) |
@@ -256,6 +257,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2448-count-number-of-bad-pairs](https://github.com/sriraghu42/leetcode/tree/master/2448-count-number-of-bad-pairs) |
 | [2465-shifting-letters-ii](https://github.com/sriraghu42/leetcode/tree/master/2465-shifting-letters-ii) |
 | [2473-max-sum-of-a-pair-with-equal-sum-of-digits](https://github.com/sriraghu42/leetcode/tree/master/2473-max-sum-of-a-pair-with-equal-sum-of-digits) |
+| [2552-maximum-sum-of-distinct-subarrays-with-length-k](https://github.com/sriraghu42/leetcode/tree/master/2552-maximum-sum-of-distinct-subarrays-with-length-k) |
 | [2614-maximum-count-of-positive-integer-and-negative-integer](https://github.com/sriraghu42/leetcode/tree/master/2614-maximum-count-of-positive-integer-and-negative-integer) |
 | [2640-maximum-number-of-integers-to-choose-from-a-range-i](https://github.com/sriraghu42/leetcode/tree/master/2640-maximum-number-of-integers-to-choose-from-a-range-i) |
 | [2665-minimum-time-to-repair-cars](https://github.com/sriraghu42/leetcode/tree/master/2665-minimum-time-to-repair-cars) |
@@ -490,6 +492,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1046-max-consecutive-ones-iii](https://github.com/sriraghu42/leetcode/tree/master/1046-max-consecutive-ones-iii) |
 | [1460-number-of-substrings-containing-all-three-characters](https://github.com/sriraghu42/leetcode/tree/master/1460-number-of-substrings-containing-all-three-characters) |
 | [2463-minimum-recolors-to-get-k-consecutive-black-blocks](https://github.com/sriraghu42/leetcode/tree/master/2463-minimum-recolors-to-get-k-consecutive-black-blocks) |
+| [2552-maximum-sum-of-distinct-subarrays-with-length-k](https://github.com/sriraghu42/leetcode/tree/master/2552-maximum-sum-of-distinct-subarrays-with-length-k) |
 | [2599-take-k-of-each-character-from-left-and-right](https://github.com/sriraghu42/leetcode/tree/master/2599-take-k-of-each-character-from-left-and-right) |
 | [2868-continuous-subarrays](https://github.com/sriraghu42/leetcode/tree/master/2868-continuous-subarrays) |
 | [2891-maximum-beauty-of-an-array-after-applying-operation](https://github.com/sriraghu42/leetcode/tree/master/2891-maximum-beauty-of-an-array-after-applying-operation) |
