@@ -8,7 +8,6 @@ class Solution {
             }
             stack.push(i);
         }
-        while(!stack.isEmpty()) ans[stack.pop()] = 0;
         return ans;
     }
 }
