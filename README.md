@@ -300,6 +300,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0071-simplify-path](https://github.com/sriraghu42/leetcode/tree/master/0071-simplify-path) |
 | [0150-evaluate-reverse-polish-notation](https://github.com/sriraghu42/leetcode/tree/master/0150-evaluate-reverse-polish-notation) |
+| [0155-min-stack](https://github.com/sriraghu42/leetcode/tree/master/0155-min-stack) |
 | [0496-next-greater-element-i](https://github.com/sriraghu42/leetcode/tree/master/0496-next-greater-element-i) |
 | [0739-daily-temperatures](https://github.com/sriraghu42/leetcode/tree/master/0739-daily-temperatures) |
 | [0780-max-chunks-to-make-sorted](https://github.com/sriraghu42/leetcode/tree/master/0780-max-chunks-to-make-sorted) |
@@ -698,6 +699,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Design
 |  |
 | ------- |
+| [0155-min-stack](https://github.com/sriraghu42/leetcode/tree/master/0155-min-stack) |
 | [0789-kth-largest-element-in-a-stream](https://github.com/sriraghu42/leetcode/tree/master/0789-kth-largest-element-in-a-stream) |
 | [1387-find-elements-in-a-contaminated-binary-tree](https://github.com/sriraghu42/leetcode/tree/master/1387-find-elements-in-a-contaminated-binary-tree) |
 | [1477-product-of-the-last-k-numbers](https://github.com/sriraghu42/leetcode/tree/master/1477-product-of-the-last-k-numbers) |
