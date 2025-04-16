@@ -195,6 +195,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0056-merge-intervals](https://github.com/sriraghu42/leetcode/tree/master/0056-merge-intervals) |
 | [0066-plus-one](https://github.com/sriraghu42/leetcode/tree/master/0066-plus-one) |
 | [0073-set-matrix-zeroes](https://github.com/sriraghu42/leetcode/tree/master/0073-set-matrix-zeroes) |
+| [0084-largest-rectangle-in-histogram](https://github.com/sriraghu42/leetcode/tree/master/0084-largest-rectangle-in-histogram) |
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/sriraghu42/leetcode/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/sriraghu42/leetcode/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/sriraghu42/leetcode/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
@@ -299,6 +300,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0071-simplify-path](https://github.com/sriraghu42/leetcode/tree/master/0071-simplify-path) |
+| [0084-largest-rectangle-in-histogram](https://github.com/sriraghu42/leetcode/tree/master/0084-largest-rectangle-in-histogram) |
 | [0150-evaluate-reverse-polish-notation](https://github.com/sriraghu42/leetcode/tree/master/0150-evaluate-reverse-polish-notation) |
 | [0155-min-stack](https://github.com/sriraghu42/leetcode/tree/master/0155-min-stack) |
 | [0496-next-greater-element-i](https://github.com/sriraghu42/leetcode/tree/master/0496-next-greater-element-i) |
@@ -686,6 +688,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Monotonic Stack
 |  |
 | ------- |
+| [0084-largest-rectangle-in-histogram](https://github.com/sriraghu42/leetcode/tree/master/0084-largest-rectangle-in-histogram) |
 | [0496-next-greater-element-i](https://github.com/sriraghu42/leetcode/tree/master/0496-next-greater-element-i) |
 | [0739-daily-temperatures](https://github.com/sriraghu42/leetcode/tree/master/0739-daily-temperatures) |
 | [0780-max-chunks-to-make-sorted](https://github.com/sriraghu42/leetcode/tree/master/0780-max-chunks-to-make-sorted) |
