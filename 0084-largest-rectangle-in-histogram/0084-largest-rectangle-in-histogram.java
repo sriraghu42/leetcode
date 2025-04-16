@@ -24,8 +24,6 @@ class Solution {
         }
         int max = 0;
         for(int i=0; i<len; i++){
-            System.out.println("left : "+leftArr[i]);
-            System.out.println("right : "+rightArr[i]);
             max = Math.max(max,(rightArr[i]-leftArr[i]-1) * heights[i]);
         }
         return max;
