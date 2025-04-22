@@ -188,6 +188,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0018-4sum](https://github.com/sriraghu42/leetcode/tree/master/0018-4sum) |
 | [0033-search-in-rotated-sorted-array](https://github.com/sriraghu42/leetcode/tree/master/0033-search-in-rotated-sorted-array) |
 | [0035-search-insert-position](https://github.com/sriraghu42/leetcode/tree/master/0035-search-insert-position) |
+| [0042-trapping-rain-water](https://github.com/sriraghu42/leetcode/tree/master/0042-trapping-rain-water) |
 | [0048-rotate-image](https://github.com/sriraghu42/leetcode/tree/master/0048-rotate-image) |
 | [0049-group-anagrams](https://github.com/sriraghu42/leetcode/tree/master/0049-group-anagrams) |
 | [0053-maximum-subarray](https://github.com/sriraghu42/leetcode/tree/master/0053-maximum-subarray) |
@@ -300,6 +301,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Stack
 |  |
 | ------- |
+| [0042-trapping-rain-water](https://github.com/sriraghu42/leetcode/tree/master/0042-trapping-rain-water) |
 | [0071-simplify-path](https://github.com/sriraghu42/leetcode/tree/master/0071-simplify-path) |
 | [0084-largest-rectangle-in-histogram](https://github.com/sriraghu42/leetcode/tree/master/0084-largest-rectangle-in-histogram) |
 | [0150-evaluate-reverse-polish-notation](https://github.com/sriraghu42/leetcode/tree/master/0150-evaluate-reverse-polish-notation) |
@@ -371,6 +373,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0022-generate-parentheses](https://github.com/sriraghu42/leetcode/tree/master/0022-generate-parentheses) |
+| [0042-trapping-rain-water](https://github.com/sriraghu42/leetcode/tree/master/0042-trapping-rain-water) |
 | [0053-maximum-subarray](https://github.com/sriraghu42/leetcode/tree/master/0053-maximum-subarray) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/sriraghu42/leetcode/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/sriraghu42/leetcode/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
@@ -390,6 +393,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0018-4sum](https://github.com/sriraghu42/leetcode/tree/master/0018-4sum) |
 | [0019-remove-nth-node-from-end-of-list](https://github.com/sriraghu42/leetcode/tree/master/0019-remove-nth-node-from-end-of-list) |
 | [0028-find-the-index-of-the-first-occurrence-in-a-string](https://github.com/sriraghu42/leetcode/tree/master/0028-find-the-index-of-the-first-occurrence-in-a-string) |
+| [0042-trapping-rain-water](https://github.com/sriraghu42/leetcode/tree/master/0042-trapping-rain-water) |
 | [0082-remove-duplicates-from-sorted-list-ii](https://github.com/sriraghu42/leetcode/tree/master/0082-remove-duplicates-from-sorted-list-ii) |
 | [0086-partition-list](https://github.com/sriraghu42/leetcode/tree/master/0086-partition-list) |
 | [0151-reverse-words-in-a-string](https://github.com/sriraghu42/leetcode/tree/master/0151-reverse-words-in-a-string) |
@@ -691,6 +695,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Monotonic Stack
 |  |
 | ------- |
+| [0042-trapping-rain-water](https://github.com/sriraghu42/leetcode/tree/master/0042-trapping-rain-water) |
 | [0084-largest-rectangle-in-histogram](https://github.com/sriraghu42/leetcode/tree/master/0084-largest-rectangle-in-histogram) |
 | [0496-next-greater-element-i](https://github.com/sriraghu42/leetcode/tree/master/0496-next-greater-element-i) |
 | [0739-daily-temperatures](https://github.com/sriraghu42/leetcode/tree/master/0739-daily-temperatures) |
