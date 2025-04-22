@@ -11,7 +11,6 @@ class Solution {
             j++;
         }
         int peak = i;
-        System.out.println(peak);
         i = height.length-1;
         j = height.length-2;
         while(j>peak-1){
