@@ -4,11 +4,15 @@ class Solution {
         int len = nums.length;
         int i = 0;
         int j = len-1;
+        int ans = Integer.MAX_VALUE;
         while(i<=j){
             int k = i+(j-i)/2;
             if (nums[k]>=nums[0]) i=k+1;
-            else j=k-1;
+            else{
+                j=k-1;
+                ans = Math.min(ans,nums[k]);
+            } 
         }
-        return nums[i];
+        return ans;
     }
 }
