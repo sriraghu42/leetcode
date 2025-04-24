@@ -7,21 +7,19 @@ class Solution {
         q.add(new Pair(beginWord,1));
         while(!q.isEmpty()){
             int size = q.size();
-            for(int i = 0; i<size; i++){
-                Pair p = q.poll();
-                for(int w=0; w<beginWord.length(); w++){
-                    StringBuilder sb = new StringBuilder(p.word);
-                    char chW = p.word.charAt(w);
-                    for(char ch = 'a'; ch<='z'; ch++){
-                        if(ch!=chW){
-                            sb.setCharAt(w,ch);
-                            String newString = sb.toString();
-                            if(newString.equals(endWord)) return p.num+1;
-                            if(wordSet.contains(newString)){
-                                wordSet.remove(newString);
-                                q.add(new Pair(newString,p.num+1));
-                            } 
-                        }
+            Pair p = q.poll();
+            for(int w=0; w<beginWord.length(); w++){
+                StringBuilder sb = new StringBuilder(p.word);
+                char chW = p.word.charAt(w);
+                for(char ch = 'a'; ch<='z'; ch++){
+                    if(ch!=chW){
+                        sb.setCharAt(w,ch);
+                        String newString = sb.toString();
+                        if(newString.equals(endWord)) return p.num+1;
+                        if(wordSet.contains(newString)){
+                            wordSet.remove(newString);
+                            q.add(new Pair(newString,p.num+1));
+                        } 
                     }
                 }
             }
