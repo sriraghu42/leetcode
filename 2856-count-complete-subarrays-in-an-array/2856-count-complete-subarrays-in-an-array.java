@@ -9,16 +9,19 @@ class Solution {
         int ans = 0;
         while(j<nums.length){
             map.put(nums[j],map.getOrDefault(nums[j],0)+1);
-            while(i<=j && map.size()==distinct){
-                ans++;
+            if(map.size()==distinct){
                 int k = j+1;
+                int sum = 0;
                 while(k<nums.length && map.containsKey(nums[k])){
-                    ans++;
+                    sum++;
                     k++;
+                }
+                while(i<=j && map.size()==distinct){
+                    ans+=sum+1;
+                    map.put(nums[i],map.get(nums[i])-1);
+                    if(map.get(nums[i])==0) map.remove(nums[i]);
+                    i++;
                 } 
-                map.put(nums[i],map.get(nums[i])-1);
-                if(map.get(nums[i])==0) map.remove(nums[i]);
-                i++;
             }
             j++;
         }
