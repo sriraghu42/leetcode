@@ -1,24 +1,25 @@
 class Solution {
     public int ladderLength(String beginWord, String endWord, List<String> wordList) {
-        Set<String> wordSet = new HashSet<>();
-        for(String word : wordList) wordSet.add(word);
-        if(!wordSet.contains(endWord)) return 0;
+        Set<String> set = new HashSet<>();
+        for(String word : wordList) set.add(word);
         Queue<Pair> q = new LinkedList<>();
         q.add(new Pair(beginWord,1));
+        if(set.contains(beginWord)) set.remove(beginWord);
         while(!q.isEmpty()){
             int size = q.size();
-            Pair p = q.poll();
-            for(int w=0; w<beginWord.length(); w++){
-                StringBuilder sb = new StringBuilder(p.word);
-                char chW = p.word.charAt(w);
-                for(char ch = 'a'; ch<='z'; ch++){
-                    if(ch!=chW){
-                        sb.setCharAt(w,ch);
-                        String newString = sb.toString();
-                        if(newString.equals(endWord)) return p.num+1;
-                        if(wordSet.contains(newString)){
-                            wordSet.remove(newString);
-                            q.add(new Pair(newString,p.num+1));
+            for(int i=0; i<size; i++){
+                Pair p = q.poll();
+                for(int j=0; j<beginWord.length(); j++){
+                    char[] arr = p.word.toCharArray();
+                    for(char ch = 'a'; ch<='z'; ch++){
+                        if(ch!=p.word.charAt(j)){
+                            arr[j]=ch;
+                            String newStr = new String(arr);
+                            if(set.contains(newStr)){
+                                if(newStr.equals(endWord)) return p.level+1;
+                                q.add(new Pair(newStr,p.level+1));
+                                set.remove(newStr);
+                            }
                         } 
                     }
                 }
@@ -29,10 +30,10 @@ class Solution {
 }
 
 class Pair{
-    int num;
     String word;
-    Pair(String word, int num){
+    int level;
+    Pair(String word, int level){
         this.word = word;
-        this.num = num;
+        this.level = level;
     }
 }
