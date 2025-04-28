@@ -1,17 +1,17 @@
 class Solution {
     public long countSubarrays(int[] nums, long k) {
-        long ans = 0;
-        int left = 0;
-        int right = 0;
         long sum = 0;
-        while(right<nums.length){
-            sum+= nums[right];
-            while(left<=right && sum * (right-left+1)>=k){
-                sum-=nums[left];
-                left++;
+        int i = 0;
+        int j = 0;
+        long ans = 0;
+        while(j<nums.length){
+            sum+=nums[j];
+            while(i<=j && sum*(j-i+1)>=k){
+                sum-=nums[i];
+                i++;
             }
-            ans+=(right-left+1);
-            right++;
+            if(sum*(j-i+1)<k) ans+=j-i+1;
+            j++;
         }
         return ans;
     }
