@@ -3,14 +3,14 @@ class Solution {
         int ans = 0;
         int i = 0;
         int j = 0;
-        Map<Character,Integer> map = new HashMap<>();
-        while(j<s.length()){
+        int[] arr = new int[26];
+        int len = s.length();
+        while(j<len){
             char jCh = s.charAt(j);
-            map.put(jCh,map.getOrDefault(jCh,0)+1);
-            while(i<=j && !isValid(map,k,j-i+1)){
+            arr[jCh-'A']++;
+            while(i<=j && !isValid(arr,k,j-i+1)){
                 char iCh = s.charAt(i);
-                map.put(iCh,map.get(iCh)-1);
-                if(map.get(iCh)==0) map.remove(iCh);
+                arr[iCh-'A']--;
                 i++;
             }
             ans=Math.max(ans,j-i+1);
@@ -19,9 +19,9 @@ class Solution {
         return ans;
     }
 
-    public boolean isValid(Map<Character,Integer> map, int k, int size){
+    public boolean isValid(int[] arr, int k, int size){
         int max = 0;
-        for(int value : map.values()) max = Math.max(max,value);
+        for(int value : arr) max = Math.max(max,value);
         return size-max<=k;
     }
 }
