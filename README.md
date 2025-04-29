@@ -91,6 +91,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0778-reorganize-string](https://github.com/sriraghu42/leetcode/tree/master/0778-reorganize-string) |
 | [0812-rotate-string](https://github.com/sriraghu42/leetcode/tree/master/0812-rotate-string) |
 | [1093-recover-a-tree-from-preorder-traversal](https://github.com/sriraghu42/leetcode/tree/master/1093-recover-a-tree-from-preorder-traversal) |
+| [1128-remove-all-adjacent-duplicates-in-string](https://github.com/sriraghu42/leetcode/tree/master/1128-remove-all-adjacent-duplicates-in-string) |
 | [1160-letter-tile-possibilities](https://github.com/sriraghu42/leetcode/tree/master/1160-letter-tile-possibilities) |
 | [1302-delete-characters-to-make-fancy-string](https://github.com/sriraghu42/leetcode/tree/master/1302-delete-characters-to-make-fancy-string) |
 | [1371-minimum-remove-to-make-valid-parentheses](https://github.com/sriraghu42/leetcode/tree/master/1371-minimum-remove-to-make-valid-parentheses) |
@@ -331,6 +332,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0739-daily-temperatures](https://github.com/sriraghu42/leetcode/tree/master/0739-daily-temperatures) |
 | [0780-max-chunks-to-make-sorted](https://github.com/sriraghu42/leetcode/tree/master/0780-max-chunks-to-make-sorted) |
 | [0883-car-fleet](https://github.com/sriraghu42/leetcode/tree/master/0883-car-fleet) |
+| [1128-remove-all-adjacent-duplicates-in-string](https://github.com/sriraghu42/leetcode/tree/master/1128-remove-all-adjacent-duplicates-in-string) |
 | [1371-minimum-remove-to-make-valid-parentheses](https://github.com/sriraghu42/leetcode/tree/master/1371-minimum-remove-to-make-valid-parentheses) |
 | [1570-final-prices-with-a-special-discount-in-a-shop](https://github.com/sriraghu42/leetcode/tree/master/1570-final-prices-with-a-special-discount-in-a-shop) |
 | [2021-remove-all-occurrences-of-a-substring](https://github.com/sriraghu42/leetcode/tree/master/2021-remove-all-occurrences-of-a-substring) |
