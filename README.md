@@ -307,6 +307,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2856-count-complete-subarrays-in-an-array](https://github.com/sriraghu42/leetcode/tree/master/2856-count-complete-subarrays-in-an-array) |
 | [2868-continuous-subarrays](https://github.com/sriraghu42/leetcode/tree/master/2868-continuous-subarrays) |
 | [2891-maximum-beauty-of-an-array-after-applying-operation](https://github.com/sriraghu42/leetcode/tree/master/2891-maximum-beauty-of-an-array-after-applying-operation) |
+| [3171-minimum-equal-sum-of-two-arrays-after-replacing-zeros](https://github.com/sriraghu42/leetcode/tree/master/3171-minimum-equal-sum-of-two-arrays-after-replacing-zeros) |
 | [3213-count-subarrays-where-max-element-appears-at-least-k-times](https://github.com/sriraghu42/leetcode/tree/master/3213-count-subarrays-where-max-element-appears-at-least-k-times) |
 | [3227-find-missing-and-repeated-values](https://github.com/sriraghu42/leetcode/tree/master/3227-find-missing-and-repeated-values) |
 | [3332-minimum-operations-to-exceed-threshold-value-ii](https://github.com/sriraghu42/leetcode/tree/master/3332-minimum-operations-to-exceed-threshold-value-ii) |
@@ -618,6 +619,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2456-construct-smallest-number-from-di-string](https://github.com/sriraghu42/leetcode/tree/master/2456-construct-smallest-number-from-di-string) |
 | [2640-maximum-number-of-integers-to-choose-from-a-range-i](https://github.com/sriraghu42/leetcode/tree/master/2640-maximum-number-of-integers-to-choose-from-a-range-i) |
 | [2816-lexicographically-smallest-palindrome](https://github.com/sriraghu42/leetcode/tree/master/2816-lexicographically-smallest-palindrome) |
+| [3171-minimum-equal-sum-of-two-arrays-after-replacing-zeros](https://github.com/sriraghu42/leetcode/tree/master/3171-minimum-equal-sum-of-two-arrays-after-replacing-zeros) |
 | [3195-separate-black-and-white-balls](https://github.com/sriraghu42/leetcode/tree/master/3195-separate-black-and-white-balls) |
 | [3607-minimum-division-operations-to-make-array-non-decreasing](https://github.com/sriraghu42/leetcode/tree/master/3607-minimum-division-operations-to-make-array-non-decreasing) |
 ## Trie
