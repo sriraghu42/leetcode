@@ -22,6 +22,7 @@ class Solution {
         }
         for(int i=0; i<len; i++){
             if(curr==0 && digits[i]==0) continue;
+            if(i>0 && digits[i]==digits[i-1] && !visited[i-1]) continue;
             if(!visited[i]){
                 visited[i] = true;
                 search(digits,len,set,curr*10+digits[i],visited);
