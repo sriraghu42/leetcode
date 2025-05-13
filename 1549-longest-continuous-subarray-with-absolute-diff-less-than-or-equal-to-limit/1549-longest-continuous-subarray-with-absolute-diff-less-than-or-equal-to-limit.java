@@ -1,21 +1,17 @@
 class Solution {
     public int longestSubarray(int[] nums, int limit) {
-        Deque<Integer> mindq = new ArrayDeque<>();
-        Deque<Integer> maxdq = new ArrayDeque<>();
+        TreeMap<Integer,Integer> map = new TreeMap<>();
         int i = 0;
         int j = 0;
-        int ans = 1;
+        int ans = 0;
         while(j<nums.length){
-            while(!mindq.isEmpty() && nums[mindq.peekLast()]>=nums[j]) mindq.pollLast();
-            while(!maxdq.isEmpty() && nums[maxdq.peekLast()]<=nums[j]) maxdq.pollLast();
-            maxdq.addLast(j);
-            mindq.addLast(j);
-            while(Math.abs(nums[mindq.peekFirst()] - nums[maxdq.peekFirst()])>limit){
+            map.put(nums[j],map.getOrDefault(nums[j],0)+1);
+            while(Math.abs(map.firstKey()-map.lastKey())>limit){
+                map.put(nums[i],map.get(nums[i])-1);
+                if(map.get(nums[i])==0) map.remove(nums[i]);
                 i++;
-                while(!mindq.isEmpty() && mindq.peekFirst()<i) mindq.pollFirst();
-                while(!maxdq.isEmpty() && maxdq.peekFirst()<i) maxdq.pollFirst();
             }
-            ans = Math.max(ans,j-i+1); 
+            ans=Math.max(ans,j-i+1);
             j++;
         }
         return ans;
