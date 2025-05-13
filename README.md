@@ -257,6 +257,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0747-min-cost-climbing-stairs](https://github.com/sriraghu42/leetcode/tree/master/0747-min-cost-climbing-stairs) |
 | [0780-max-chunks-to-make-sorted](https://github.com/sriraghu42/leetcode/tree/master/0780-max-chunks-to-make-sorted) |
 | [0854-making-a-large-island](https://github.com/sriraghu42/leetcode/tree/master/0854-making-a-large-island) |
+| [0875-longest-mountain-in-array](https://github.com/sriraghu42/leetcode/tree/master/0875-longest-mountain-in-array) |
 | [0876-hand-of-straights](https://github.com/sriraghu42/leetcode/tree/master/0876-hand-of-straights) |
 | [0882-peak-index-in-a-mountain-array](https://github.com/sriraghu42/leetcode/tree/master/0882-peak-index-in-a-mountain-array) |
 | [0883-car-fleet](https://github.com/sriraghu42/leetcode/tree/master/0883-car-fleet) |
@@ -425,6 +426,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0718-maximum-length-of-repeated-subarray](https://github.com/sriraghu42/leetcode/tree/master/0718-maximum-length-of-repeated-subarray) |
 | [0740-delete-and-earn](https://github.com/sriraghu42/leetcode/tree/master/0740-delete-and-earn) |
 | [0747-min-cost-climbing-stairs](https://github.com/sriraghu42/leetcode/tree/master/0747-min-cost-climbing-stairs) |
+| [0875-longest-mountain-in-array](https://github.com/sriraghu42/leetcode/tree/master/0875-longest-mountain-in-array) |
 | [1025-minimum-cost-for-tickets](https://github.com/sriraghu42/leetcode/tree/master/1025-minimum-cost-for-tickets) |
 | [1236-n-th-tribonacci-number](https://github.com/sriraghu42/leetcode/tree/master/1236-n-th-tribonacci-number) |
 | [2164-two-best-non-overlapping-events](https://github.com/sriraghu42/leetcode/tree/master/2164-two-best-non-overlapping-events) |
@@ -442,6 +444,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0151-reverse-words-in-a-string](https://github.com/sriraghu42/leetcode/tree/master/0151-reverse-words-in-a-string) |
 | [0287-find-the-duplicate-number](https://github.com/sriraghu42/leetcode/tree/master/0287-find-the-duplicate-number) |
 | [0567-permutation-in-string](https://github.com/sriraghu42/leetcode/tree/master/0567-permutation-in-string) |
+| [0875-longest-mountain-in-array](https://github.com/sriraghu42/leetcode/tree/master/0875-longest-mountain-in-array) |
 | [1468-check-if-n-and-its-double-exist](https://github.com/sriraghu42/leetcode/tree/master/1468-check-if-n-and-its-double-exist) |
 | [1566-check-if-a-word-occurs-as-a-prefix-of-any-word-in-a-sentence](https://github.com/sriraghu42/leetcode/tree/master/1566-check-if-a-word-occurs-as-a-prefix-of-any-word-in-a-sentence) |
 | [1798-max-number-of-k-sum-pairs](https://github.com/sriraghu42/leetcode/tree/master/1798-max-number-of-k-sum-pairs) |
@@ -609,6 +612,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Enumeration
 |  |
 | ------- |
+| [0875-longest-mountain-in-array](https://github.com/sriraghu42/leetcode/tree/master/0875-longest-mountain-in-array) |
 | [2215-finding-3-digit-even-numbers](https://github.com/sriraghu42/leetcode/tree/master/2215-finding-3-digit-even-numbers) |
 | [3579-maximum-possible-number-by-binary-concatenation](https://github.com/sriraghu42/leetcode/tree/master/3579-maximum-possible-number-by-binary-concatenation) |
 ## Merge Sort
