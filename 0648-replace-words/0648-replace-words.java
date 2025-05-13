@@ -1,20 +1,19 @@
 class Solution {
     public String replaceWords(List<String> dictionary, String sentence) {
         String[] words = sentence.split(" ");
-        Set<String> prefixes = new HashSet<>(dictionary);
-        StringBuilder ans = new StringBuilder();
+        dictionary.sort(null);
+        StringBuilder sb = new StringBuilder();
         for(String word : words){
-            StringBuilder sb = new StringBuilder();
-            for(char ch : word.toCharArray()){
-                sb.append(ch);
-                if(prefixes.contains(sb.toString())){
-                    word = sb.toString();
+            for(String prefix : dictionary){
+                if(word.compareTo(prefix)<0) break;
+                if(word.startsWith(prefix)){
+                    word = prefix;
                     break;
                 }
             }
-            ans.append(word).append(" ");
+            sb.append(word).append(" ");
         }
-        ans.deleteCharAt(ans.length()-1);
-        return ans.toString();
+        sb.deleteCharAt(sb.length()-1);
+        return sb.toString();
     }
 }
