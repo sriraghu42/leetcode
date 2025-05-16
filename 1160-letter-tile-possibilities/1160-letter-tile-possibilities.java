@@ -1,21 +1,20 @@
 class Solution {
-    int count = 0;
+    int counter = 0;
     public int numTilePossibilities(String tiles) {
-        char[] charArr = tiles.toCharArray();
-        Arrays.sort(charArr);
-        int len = charArr.length;
-        boolean[] visited = new boolean[len];
-        helperRec(charArr,visited,len);
-        return count;
+        char[] arr = tiles.toCharArray();
+        Arrays.sort(arr);
+        boolean[] visited = new boolean[tiles.length()];
+        backtrack(arr,visited);
+        return counter;
     }
 
-    public void helperRec(char[] charArr, boolean[] visited, int len){
-        for(int i=0; i<len; i++){
+    public void backtrack(char[] arr, boolean[] visited){
+        for(int i=0; i<arr.length; i++){
             if(!visited[i]){
-                if(i>0 && charArr[i]==charArr[i-1] && !visited[i-1]) continue;
+                if(i>0 && arr[i]==arr[i-1] && !visited[i-1]) continue;
+                counter++;
                 visited[i] = true;
-                count++;
-                helperRec(charArr,visited,len);
+                backtrack(arr,visited);
                 visited[i] = false;
             }
         }
