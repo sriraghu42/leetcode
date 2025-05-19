@@ -1,39 +1,31 @@
 class Solution {
     public int ladderLength(String beginWord, String endWord, List<String> wordList) {
-        Set<String> set = new HashSet<>();
-        for(String word : wordList) set.add(word);
-        Queue<Pair> q = new LinkedList<>();
-        q.add(new Pair(beginWord,1));
+        Set<String> set = new HashSet<>(wordList);
+        if(!set.contains(endWord)) return 0;
         if(set.contains(beginWord)) set.remove(beginWord);
+        Queue<String> q = new LinkedList<>();
+        q.add(beginWord);
+        int counter = 1;
         while(!q.isEmpty()){
-            int size = q.size();
-            for(int i=0; i<size; i++){
-                Pair p = q.poll();
+            counter++;
+            int len = q.size();
+            for(int i=0; i<len; i++){
+                String word = q.poll();
                 for(int j=0; j<beginWord.length(); j++){
-                    char[] arr = p.word.toCharArray();
-                    for(char ch = 'a'; ch<='z'; ch++){
-                        if(ch!=p.word.charAt(j)){
-                            arr[j]=ch;
-                            String newStr = new String(arr);
-                            if(set.contains(newStr)){
-                                if(newStr.equals(endWord)) return p.level+1;
-                                q.add(new Pair(newStr,p.level+1));
-                                set.remove(newStr);
-                            }
+                    StringBuilder sb = new StringBuilder(word);
+                    for(int k=0; k<26; k++){
+                        sb.setCharAt(j,(char) (k+97));
+                        String curr = sb.toString();
+                        //System.out.println(curr);
+                        if(curr.equals(endWord)) return counter;
+                        if(set.contains(curr)){
+                            q.add(curr);
+                            set.remove(curr);
                         } 
                     }
                 }
             }
         }
         return 0;
-    }
-}
-
-class Pair{
-    String word;
-    int level;
-    Pair(String word, int level){
-        this.word = word;
-        this.level = level;
     }
 }
