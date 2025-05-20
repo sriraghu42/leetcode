@@ -13,9 +13,8 @@ class Solution {
         }
         int counter = 0;
         for(int i=0; i<len; i++){
-            if(nums[i]-calArr[i]<=0) counter++;
+            if(nums[i]>calArr[i]) return false;
         }
-        //System.out.println(counter);
-        return counter==len;
+        return true;
     }
 }
