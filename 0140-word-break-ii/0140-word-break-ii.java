@@ -1,8 +1,8 @@
 class Solution {
     List<String> ans = new ArrayList<>();
     public List<String> wordBreak(String s, List<String> wordDict) {
-        StringBuilder sb = new StringBuilder();
         int len = s.length();
+        StringBuilder sb = new StringBuilder();
         Set<String> set = new HashSet<>(wordDict);
         search(s,len,set,sb,0);
         return ans;
@@ -17,10 +17,10 @@ class Solution {
         for(int i=index; i<len; i++){
             String word = s.substring(index,i+1);
             if(set.contains(word)){
-                int length = sb.length();
+                int currLen = sb.length();
                 sb.append(word).append(" ");
                 search(s,len,set,sb,i+1);
-                sb.setLength(length);
+                sb.setLength(currLen);
             }
         }
     }
