@@ -94,6 +94,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0022-generate-parentheses](https://github.com/sriraghu42/leetcode/tree/master/0022-generate-parentheses) |
 | [0028-find-the-index-of-the-first-occurrence-in-a-string](https://github.com/sriraghu42/leetcode/tree/master/0028-find-the-index-of-the-first-occurrence-in-a-string) |
 | [0049-group-anagrams](https://github.com/sriraghu42/leetcode/tree/master/0049-group-anagrams) |
+| [0068-text-justification](https://github.com/sriraghu42/leetcode/tree/master/0068-text-justification) |
 | [0071-simplify-path](https://github.com/sriraghu42/leetcode/tree/master/0071-simplify-path) |
 | [0076-minimum-window-substring](https://github.com/sriraghu42/leetcode/tree/master/0076-minimum-window-substring) |
 | [0079-word-search](https://github.com/sriraghu42/leetcode/tree/master/0079-word-search) |
@@ -247,6 +248,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0054-spiral-matrix](https://github.com/sriraghu42/leetcode/tree/master/0054-spiral-matrix) |
 | [0056-merge-intervals](https://github.com/sriraghu42/leetcode/tree/master/0056-merge-intervals) |
 | [0066-plus-one](https://github.com/sriraghu42/leetcode/tree/master/0066-plus-one) |
+| [0068-text-justification](https://github.com/sriraghu42/leetcode/tree/master/0068-text-justification) |
 | [0073-set-matrix-zeroes](https://github.com/sriraghu42/leetcode/tree/master/0073-set-matrix-zeroes) |
 | [0075-sort-colors](https://github.com/sriraghu42/leetcode/tree/master/0075-sort-colors) |
 | [0079-word-search](https://github.com/sriraghu42/leetcode/tree/master/0079-word-search) |
@@ -767,6 +769,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0054-spiral-matrix](https://github.com/sriraghu42/leetcode/tree/master/0054-spiral-matrix) |
+| [0068-text-justification](https://github.com/sriraghu42/leetcode/tree/master/0068-text-justification) |
 | [0289-game-of-life](https://github.com/sriraghu42/leetcode/tree/master/0289-game-of-life) |
 | [2021-remove-all-occurrences-of-a-substring](https://github.com/sriraghu42/leetcode/tree/master/2021-remove-all-occurrences-of-a-substring) |
 | [2232-adding-spaces-to-a-string](https://github.com/sriraghu42/leetcode/tree/master/2232-adding-spaces-to-a-string) |
