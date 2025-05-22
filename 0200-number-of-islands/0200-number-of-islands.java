@@ -1,26 +1,35 @@
 class Solution {
-    int[][] directions = new int[][] {{-1,0},{1,0},{0,1},{0,-1}};
+    int[][] directions = new int[][] {{-1,0},{1,0},{0,-1},{0,1}};
     public int numIslands(char[][] grid) {
-        int counter = 0;
-        for(int i=0; i<grid.length; i++){
-            for(int j=0; j<grid[0].length; j++){
+        int rows = grid.length;
+        int cols = grid[0].length;
+        int ans = 0;
+        for(int i=0; i<rows; i++){
+            for(int j=0; j<cols; j++){
                 if(grid[i][j]=='1'){
-                    System.out.println("Hi");
-                    counter++;
-                    dfs(grid,i,j);
-                } 
+                    bfs(grid,i,j,rows,cols);
+                    ans++;
+                }
             }
         }
-        return counter;
+        return ans;
     }
 
-    public void dfs(char[][] grid, int i, int j){
+    public void bfs(char[][] grid, int i, int j, int rows, int cols){
+        Queue<int[]> q = new LinkedList<>();
+        q.add(new int[] {i,j});
         grid[i][j]='0';
-        for(int[] dir : directions){
-            int x = i+dir[0];
-            int y = j+dir[1];
-            if(x<0 || y<0 || x>=grid.length || y>=grid[0].length || grid[x][y]=='0') continue;
-            dfs(grid,x,y);
+        while(!q.isEmpty()){
+            int[] arr = q.poll();
+            i = arr[0];
+            j = arr[1];
+            for(int[] dir : directions){
+                int x = i+dir[0];
+                int y = j+dir[1];
+                if(x<0 || x>=rows || y<0 || y>=cols || grid[x][y]=='0') continue;
+                grid[x][y] = '0';
+                q.add(new int[] {x,y});
+            }
         }
     }
 }
