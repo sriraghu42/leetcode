@@ -39,7 +39,7 @@ class Solution {
                     } 
                 }
             }
-            System.out.println(sb.length());
+            //System.out.println(sb.length());
             ans.add(sb.toString());
             i=j;
         }
