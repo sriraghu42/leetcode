@@ -1,25 +1,31 @@
 class Solution {
     public String reorganizeString(String s) {
-        Map<Character,Integer> map = new HashMap<>();
-        for(char ch : s.toCharArray()){
-            map.put(ch,map.getOrDefault(ch,0)+1);
+        int[] arr = new int[26];
+        for(char ch : s.toCharArray()) arr[ch-'a']++;
+        PriorityQueue<int[]> pq = new PriorityQueue<>((a,b)->{
+            int compValue = b[1]-a[1];
+            if(compValue!=0) return compValue;
+            else return a[0]-b[0];
         }
-        PriorityQueue<int[]> pq = new PriorityQueue<>((a,b)->b[1]-a[1]);
-        for(Map.Entry<Character,Integer> entry : map.entrySet()){
-            pq.add(new int[] {(int) entry.getKey(),entry.getValue()});
+            );
+        for(int i=0; i<26; i++){
+            if(arr[i]>0) pq.add(new int[] {i,arr[i]});
         }
         StringBuilder sb = new StringBuilder();
         while(!pq.isEmpty()){
             int[] first = pq.poll();
-            if(sb.length()>0 && sb.charAt(sb.length()-1)==first[0]){
-                if(pq.isEmpty()) return "";
+            char ch = (char) (first[0]+97);
+            if(sb.length()>0 && sb.charAt(sb.length()-1)==ch)  return "";
+            sb.append(ch);
+            first[1]--;
+            if(!pq.isEmpty()){
                 int[] second = pq.poll();
-                sb.append((char) second[0]);
+                char ch2 = (char) (second[0]+97);
+                if(sb.length()>0 && sb.charAt(sb.length()-1)==ch2)  return "";
+                sb.append(ch2);
                 second[1]--;
                 if(second[1]>0) pq.add(second);
             }
-            sb.append((char) first[0]);
-            first[1]--;
             if(first[1]>0) pq.add(first);
         }
         return sb.toString();
