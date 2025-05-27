@@ -88,6 +88,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0092-reverse-linked-list-ii](https://github.com/sriraghu42/leetcode/tree/master/0092-reverse-linked-list-ii) |
 | [0117-populating-next-right-pointers-in-each-node-ii](https://github.com/sriraghu42/leetcode/tree/master/0117-populating-next-right-pointers-in-each-node-ii) |
 | [0146-lru-cache](https://github.com/sriraghu42/leetcode/tree/master/0146-lru-cache) |
+| [0206-reverse-linked-list](https://github.com/sriraghu42/leetcode/tree/master/0206-reverse-linked-list) |
 ## String
 |  |
 | ------- |
@@ -913,6 +914,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0002-add-two-numbers](https://github.com/sriraghu42/leetcode/tree/master/0002-add-two-numbers) |
 | [0024-swap-nodes-in-pairs](https://github.com/sriraghu42/leetcode/tree/master/0024-swap-nodes-in-pairs) |
+| [0206-reverse-linked-list](https://github.com/sriraghu42/leetcode/tree/master/0206-reverse-linked-list) |
 | [0224-basic-calculator](https://github.com/sriraghu42/leetcode/tree/master/0224-basic-calculator) |
 ## Combinatorics
 |  |
