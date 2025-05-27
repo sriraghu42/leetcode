@@ -261,6 +261,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0053-maximum-subarray](https://github.com/sriraghu42/leetcode/tree/master/0053-maximum-subarray) |
 | [0054-spiral-matrix](https://github.com/sriraghu42/leetcode/tree/master/0054-spiral-matrix) |
 | [0056-merge-intervals](https://github.com/sriraghu42/leetcode/tree/master/0056-merge-intervals) |
+| [0064-minimum-path-sum](https://github.com/sriraghu42/leetcode/tree/master/0064-minimum-path-sum) |
 | [0066-plus-one](https://github.com/sriraghu42/leetcode/tree/master/0066-plus-one) |
 | [0068-text-justification](https://github.com/sriraghu42/leetcode/tree/master/0068-text-justification) |
 | [0073-set-matrix-zeroes](https://github.com/sriraghu42/leetcode/tree/master/0073-set-matrix-zeroes) |
@@ -485,6 +486,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0042-trapping-rain-water](https://github.com/sriraghu42/leetcode/tree/master/0042-trapping-rain-water) |
 | [0053-maximum-subarray](https://github.com/sriraghu42/leetcode/tree/master/0053-maximum-subarray) |
 | [0062-unique-paths](https://github.com/sriraghu42/leetcode/tree/master/0062-unique-paths) |
+| [0064-minimum-path-sum](https://github.com/sriraghu42/leetcode/tree/master/0064-minimum-path-sum) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/sriraghu42/leetcode/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/sriraghu42/leetcode/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
 | [0124-binary-tree-maximum-path-sum](https://github.com/sriraghu42/leetcode/tree/master/0124-binary-tree-maximum-path-sum) |
@@ -626,6 +628,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0048-rotate-image](https://github.com/sriraghu42/leetcode/tree/master/0048-rotate-image) |
 | [0054-spiral-matrix](https://github.com/sriraghu42/leetcode/tree/master/0054-spiral-matrix) |
+| [0064-minimum-path-sum](https://github.com/sriraghu42/leetcode/tree/master/0064-minimum-path-sum) |
 | [0073-set-matrix-zeroes](https://github.com/sriraghu42/leetcode/tree/master/0073-set-matrix-zeroes) |
 | [0079-word-search](https://github.com/sriraghu42/leetcode/tree/master/0079-word-search) |
 | [0130-surrounded-regions](https://github.com/sriraghu42/leetcode/tree/master/0130-surrounded-regions) |
