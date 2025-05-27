@@ -17,10 +17,10 @@ class Solution {
         q.add(target);
         while(!q.isEmpty() && k>0){
             int len = q.size();
-            System.out.println("************");
+            //System.out.println("************");
             for(int i=0; i<len; i++){
                 TreeNode node = q.poll();
-                System.out.println(node.val);
+                //System.out.println(node.val);
                 if(node.left!=null && !set.contains(node.left)){
                     q.add(node.left);
                     set.add(node.left);
