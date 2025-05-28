@@ -1,25 +1,26 @@
 class Solution {
     public double maxAverageRatio(int[][] classes, int extraStudents) {
-        PriorityQueue<double[]> pq = new PriorityQueue<>((a,b)->{
-            return Double.compare(b[0],a[0]);
-        });
-        for(int[] clazz : classes){
-            double increase = ((clazz[0]+1)/(double) (clazz[1]+1)) - ((clazz[0]/(double) clazz[1]));
-            pq.add(new double[] {increase,clazz[0],clazz[1]});
+        PriorityQueue<double[]> pq = new PriorityQueue<>((a,b)-> Double.compare(b[2],a[2]));
+        for(int[] cla : classes){
+            double pass  = (double) cla[0];
+            double total = (double) cla[1];
+            double avg = ((pass+1)/(total+1))-(pass/total);
+            pq.add(new double[] {pass,total,avg});
         }
         while(extraStudents>0){
-            double[] clazz = pq.poll();
-            clazz[1]++;
-            clazz[2]++;
-            double increase = ((clazz[1]+1)/(double) (clazz[2]+1)) - ((clazz[1]/(double) clazz[2]));
-            pq.add(new double[] {increase,clazz[1],clazz[2]});
+            double[] top = pq.poll();
+            top[0]++;
+            top[1]++;
+            top[2] = ((top[0]+1)/(top[1]+1))-(top[0]/top[1]);
+            pq.add(top);
             extraStudents--;
         }
-        double sum = 0;
+        double avg = 0;
+        int len = pq.size();
         while(!pq.isEmpty()){
-            double[] clazz = pq.poll();
-            sum+= (clazz[1]/(double) clazz[2]);
+            double[] curr = pq.poll();
+            avg+= (curr[0]/curr[1]);
         }
-        return sum/classes.length;
+        return avg/len;
     }
 }
