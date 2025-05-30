@@ -1,20 +1,27 @@
 class Solution {
     public int[] maximumBeauty(int[][] items, int[] queries) {
-        TreeMap<Integer,Integer> map = new TreeMap<>();
-        for(int[] item : items){
-            map.put(item[0],Math.max(map.getOrDefault(item[0],0),item[1]));
-        }
+        Arrays.sort(items,(a,b) -> a[0]-b[0]);
         int max = 0;
-        for(Map.Entry<Integer,Integer> entry : map.entrySet()){
-            max  = Math.max(max,entry.getValue());
-            map.put(entry.getKey(),max);
+        for(int[] item : items){
+            max = Math.max(max,item[1]);
+            item[1] = max;
         }
-        int[] ans = new int[queries.length];
+        int len = queries.length;
+        int[] ans = new int[len];
         for(int i=0; i<queries.length; i++){
-            Integer key = map.floorKey(queries[i]);
-            if(key!=null) ans[i] = map.get(key);
-            else ans[i] = 0;
+            ans[i] = compute(items,queries[i]);
         }
         return ans;
+    }
+
+    public int compute(int[][] items, int query){
+        int i = 0;
+        int j = items.length-1;
+        while(i<=j){
+            int k = i+(j-i)/2;
+            if(items[k][0]<=query) i=k+1;
+            else j=k-1;
+        }
+        return j==-1?0:items[j][1];
     }
 }
