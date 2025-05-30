@@ -347,6 +347,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2089-maximum-matrix-sum](https://github.com/sriraghu42/leetcode/tree/master/2089-maximum-matrix-sum) |
 | [2107-find-unique-binary-string](https://github.com/sriraghu42/leetcode/tree/master/2107-find-unique-binary-string) |
 | [2164-two-best-non-overlapping-events](https://github.com/sriraghu42/leetcode/tree/master/2164-two-best-non-overlapping-events) |
+| [2179-most-beautiful-item-for-each-query](https://github.com/sriraghu42/leetcode/tree/master/2179-most-beautiful-item-for-each-query) |
 | [2215-finding-3-digit-even-numbers](https://github.com/sriraghu42/leetcode/tree/master/2215-finding-3-digit-even-numbers) |
 | [2232-adding-spaces-to-a-string](https://github.com/sriraghu42/leetcode/tree/master/2232-adding-spaces-to-a-string) |
 | [2237-longest-palindrome-by-concatenating-two-letter-words](https://github.com/sriraghu42/leetcode/tree/master/2237-longest-palindrome-by-concatenating-two-letter-words) |
@@ -477,6 +478,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1468-check-if-n-and-its-double-exist](https://github.com/sriraghu42/leetcode/tree/master/1468-check-if-n-and-its-double-exist) |
 | [1886-minimum-limit-of-balls-in-a-bag](https://github.com/sriraghu42/leetcode/tree/master/1886-minimum-limit-of-balls-in-a-bag) |
 | [2164-two-best-non-overlapping-events](https://github.com/sriraghu42/leetcode/tree/master/2164-two-best-non-overlapping-events) |
+| [2179-most-beautiful-item-for-each-query](https://github.com/sriraghu42/leetcode/tree/master/2179-most-beautiful-item-for-each-query) |
 | [2394-count-subarrays-with-score-less-than-k](https://github.com/sriraghu42/leetcode/tree/master/2394-count-subarrays-with-score-less-than-k) |
 | [2449-maximum-number-of-robots-within-budget](https://github.com/sriraghu42/leetcode/tree/master/2449-maximum-number-of-robots-within-budget) |
 | [2614-maximum-count-of-positive-integer-and-negative-integer](https://github.com/sriraghu42/leetcode/tree/master/2614-maximum-count-of-positive-integer-and-negative-integer) |
@@ -574,6 +576,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1798-max-number-of-k-sum-pairs](https://github.com/sriraghu42/leetcode/tree/master/1798-max-number-of-k-sum-pairs) |
 | [1829-maximum-units-on-a-truck](https://github.com/sriraghu42/leetcode/tree/master/1829-maximum-units-on-a-truck) |
 | [2164-two-best-non-overlapping-events](https://github.com/sriraghu42/leetcode/tree/master/2164-two-best-non-overlapping-events) |
+| [2179-most-beautiful-item-for-each-query](https://github.com/sriraghu42/leetcode/tree/master/2179-most-beautiful-item-for-each-query) |
 | [2215-finding-3-digit-even-numbers](https://github.com/sriraghu42/leetcode/tree/master/2215-finding-3-digit-even-numbers) |
 | [2473-max-sum-of-a-pair-with-equal-sum-of-digits](https://github.com/sriraghu42/leetcode/tree/master/2473-max-sum-of-a-pair-with-equal-sum-of-digits) |
 | [2640-maximum-number-of-integers-to-choose-from-a-range-i](https://github.com/sriraghu42/leetcode/tree/master/2640-maximum-number-of-integers-to-choose-from-a-range-i) |
