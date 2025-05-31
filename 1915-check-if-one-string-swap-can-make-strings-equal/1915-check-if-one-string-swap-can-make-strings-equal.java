@@ -1,17 +1,20 @@
 class Solution {
     public boolean areAlmostEqual(String s1, String s2) {
-        int firstIndex = -1;
-        int secondIndex = -1;
-        for(int i=0; i<s1.length(); i++){
-            if(s1.charAt(i)!=s2.charAt(i)){
-                if(firstIndex == -1) firstIndex = i;
-                else if(secondIndex == -1 ) secondIndex = i;
-                else return false;
-            }
+        int[] arr = new int[26];
+        for(char ch : s1.toCharArray()) arr[ch-'a']++;
+        for(char ch : s2.toCharArray()) arr[ch-'a']--;
+        for(int i=0; i<26; i++){
+            if(arr[i]!=0) return false;
         }
-        if(firstIndex==-1 && secondIndex==-1) return true;
-        if(firstIndex==-1 || secondIndex==-1) return false;
-        if(s1.charAt(firstIndex)==s2.charAt(secondIndex) && s1.charAt(secondIndex)==s2.charAt(firstIndex)) return true;
-        return false;
+        int counter = 0;
+        int i = 0;
+        int j = 0;
+        int len = s1.length();
+        while(i<len){
+            if(s1.charAt(i)!=s2.charAt(j)) counter++;
+            i++;
+            j++;
+        }
+        return counter<=2;
     }
 }
