@@ -7,14 +7,10 @@ class Solution {
         while(i<len1 && j<len2){
             char ich = str1.charAt(i);
             char jch = str2.charAt(j);
-            if(jch-ich==0 || jch-ich==1 || jch-ich==-25){
-                i++;
-                j++;
-            }
-            else i++;
+            if(jch-ich==0 || jch-ich==1 || jch-ich==-25) j++;
+            i++;
         }
         if(j==len2) return true;
-        else if(i==len1) return false;
         return false;
     }
 }
