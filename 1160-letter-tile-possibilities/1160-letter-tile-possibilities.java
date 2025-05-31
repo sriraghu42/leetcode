@@ -1,22 +1,21 @@
 class Solution {
-    int counter = 0;
+    int ans=-1;
     public int numTilePossibilities(String tiles) {
-        char[] arr = tiles.toCharArray();
-        Arrays.sort(arr);
-        boolean[] visited = new boolean[tiles.length()];
-        backtrack(arr,visited);
-        return counter;
+        int len = tiles.length();
+        char[] tilesArr = tiles.toCharArray();
+        Arrays.sort(tilesArr);
+        boolean[] visited = new boolean[len];
+        search(tilesArr,len,visited);
+        return ans;
     }
 
-    public void backtrack(char[] arr, boolean[] visited){
-        for(int i=0; i<arr.length; i++){
-            if(!visited[i]){
-                if(i>0 && arr[i]==arr[i-1] && !visited[i-1]) continue;
-                counter++;
-                visited[i] = true;
-                backtrack(arr,visited);
-                visited[i] = false;
-            }
+    public void search(char[] arr, int len, boolean[] visited){
+        ans++;
+        for(int i=0; i<len; i++){
+            if(visited[i] || (i>0 && arr[i]==arr[i-1] && !visited[i-1])) continue;
+            visited[i] = true;
+            search(arr,len,visited);
+            visited[i] = false;
         }
     }
 }
