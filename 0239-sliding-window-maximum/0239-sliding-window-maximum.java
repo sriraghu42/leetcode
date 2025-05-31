@@ -1,16 +1,15 @@
 class Solution {
     public int[] maxSlidingWindow(int[] nums, int k) {
-        Deque<Integer> dq = new ArrayDeque<>();
-        int i = 0;
-        int j = 0;
-        int len = nums.length;
-        int[] ans = new int[len-k+1];
-        while(j<len){
-            while(!dq.isEmpty() && nums[dq.peekLast()]<=nums[j]) dq.pollLast();
-            dq.addLast(j);
+        TreeMap<Integer,Integer> map = new TreeMap<>();
+        int i=0;
+        int j=0;
+        int[] ans = new int[nums.length-k+1];
+        while(j<nums.length){
+            map.put(nums[j],map.getOrDefault(nums[j],0)+1);
             if(j-i+1==k){
-                while(!dq.isEmpty() && dq.peekFirst()<i) dq.pollFirst();
-                ans[j-k+1] = nums[dq.peekFirst()];
+                ans[i] = map.lastKey();
+                map.put(nums[i],map.get(nums[i])-1);
+                if(map.get(nums[i])==0) map.remove(nums[i]);
                 i++;
             }
             j++;
