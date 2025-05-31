@@ -1,14 +1,10 @@
 class Solution {
     public String removeOccurrences(String s, String part) {
+        int len = part.length();
         StringBuilder sb = new StringBuilder();
-        int targetLength = part.length();
-        for(int i=0; i<s.length(); i++){
-            char ch = s.charAt(i);
+        for(char ch : s.toCharArray()){
             sb.append(ch);
-            while(sb.length()>=targetLength && 
-            sb.substring(sb.length()-targetLength,sb.length()).equals(part)){
-                sb.setLength(sb.length()-targetLength);
-            }
+            if(sb.length()>=len && sb.substring(sb.length()-len).equals(part)) sb.setLength(sb.length()-len);
         }
         return sb.toString();
     }
