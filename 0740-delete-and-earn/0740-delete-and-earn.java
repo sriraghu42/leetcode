@@ -1,18 +1,19 @@
 class Solution {
     public int deleteAndEarn(int[] nums) {
-        int min = Integer.MAX_VALUE;
+        int[] arr = new int[10001];
         int max = 0;
-        int[] arr = new int[(int) Math.pow(10,4)+1];
         for(int num : nums){
-            min = Math.min(min,num);
-            max = Math.max(max,num);
-            arr[num]++;
-        }
+            max = Math.max(num,max);
+            arr[num]+=num;
+        } 
         int[] dp = new int[max+1];
-        dp[min] = min * arr[min];
-        for(int i=min+1; i<=max; i++){
-            dp[i] = Math.max(dp[i-1],dp[i-2]+i*arr[i]);
+        dp[0] = 0;
+        dp[1] = Math.max(dp[0],arr[1]);
+        for(int i=2; i<dp.length; i++){
+            dp[i] = Math.max(dp[i-1],dp[i-2]+arr[i]);
+            //System.out.println(dp[i]);
         }
         return dp[max];
     }
 }
+
