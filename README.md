@@ -270,6 +270,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0068-text-justification](https://github.com/sriraghu42/leetcode/tree/master/0068-text-justification) |
 | [0073-set-matrix-zeroes](https://github.com/sriraghu42/leetcode/tree/master/0073-set-matrix-zeroes) |
 | [0075-sort-colors](https://github.com/sriraghu42/leetcode/tree/master/0075-sort-colors) |
+| [0078-subsets](https://github.com/sriraghu42/leetcode/tree/master/0078-subsets) |
 | [0079-word-search](https://github.com/sriraghu42/leetcode/tree/master/0079-word-search) |
 | [0084-largest-rectangle-in-histogram](https://github.com/sriraghu42/leetcode/tree/master/0084-largest-rectangle-in-histogram) |
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/sriraghu42/leetcode/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
@@ -702,6 +703,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Bit Manipulation
 |  |
 | ------- |
+| [0078-subsets](https://github.com/sriraghu42/leetcode/tree/master/0078-subsets) |
 | [0287-find-the-duplicate-number](https://github.com/sriraghu42/leetcode/tree/master/0287-find-the-duplicate-number) |
 | [2059-unique-length-3-palindromic-subsequences](https://github.com/sriraghu42/leetcode/tree/master/2059-unique-length-3-palindromic-subsequences) |
 | [2308-divide-array-into-equal-pairs](https://github.com/sriraghu42/leetcode/tree/master/2308-divide-array-into-equal-pairs) |
@@ -780,6 +782,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0022-generate-parentheses](https://github.com/sriraghu42/leetcode/tree/master/0022-generate-parentheses) |
+| [0078-subsets](https://github.com/sriraghu42/leetcode/tree/master/0078-subsets) |
 | [0079-word-search](https://github.com/sriraghu42/leetcode/tree/master/0079-word-search) |
 | [0093-restore-ip-addresses](https://github.com/sriraghu42/leetcode/tree/master/0093-restore-ip-addresses) |
 | [0140-word-break-ii](https://github.com/sriraghu42/leetcode/tree/master/0140-word-break-ii) |
