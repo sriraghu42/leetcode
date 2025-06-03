@@ -7,13 +7,13 @@ class Solution {
     }
 
     public void helperRec(int[] nums, List<Integer> chosen, List<List<Integer>> res, int index){
-        if(index==nums.length){
-            res.add(new ArrayList<>(chosen));
-            return;
+        res.add(new ArrayList<>(chosen));
+        if(index==nums.length) return;
+        for(int i=index; i<nums.length; i++){
+            //System.out.println(nums[index]);
+            chosen.add(nums[i]);
+            helperRec(nums,chosen,res,i+1);
+            chosen.remove(chosen.size()-1);
         }
-        helperRec(nums,chosen,res,index+1);
-        chosen.add(nums[index]);
-        helperRec(nums,chosen,res,index+1);
-        chosen.remove(chosen.size()-1);
     }
 }
