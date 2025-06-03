@@ -9,15 +9,13 @@ class Solution {
     }
 
     public void helperRec(int[] nums, int len, int index){
-        if(index==len){
-            //System.out.println(chosen);
-            //chosen.sort(null);
-            ans.add(new ArrayList<>(chosen));
-            return;
+        ans.add(new ArrayList<>(chosen));
+        if(index==len) return;
+        for(int i=index; i<nums.length; i++){
+            if(i!=index && nums[i]==nums[i-1]) continue;
+            chosen.add(nums[i]);
+            helperRec(nums,len,i+1);
+            chosen.remove(chosen.size()-1);
         }
-        helperRec(nums,len,index+1);
-        chosen.add(nums[index]);
-        helperRec(nums,len,index+1);
-        chosen.remove(chosen.size()-1);
     }
 }
