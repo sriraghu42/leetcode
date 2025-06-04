@@ -299,6 +299,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0347-top-k-frequent-elements](https://github.com/sriraghu42/leetcode/tree/master/0347-top-k-frequent-elements) |
 | [0417-pacific-atlantic-water-flow](https://github.com/sriraghu42/leetcode/tree/master/0417-pacific-atlantic-water-flow) |
 | [0463-island-perimeter](https://github.com/sriraghu42/leetcode/tree/master/0463-island-perimeter) |
+| [0473-matchsticks-to-square](https://github.com/sriraghu42/leetcode/tree/master/0473-matchsticks-to-square) |
 | [0496-next-greater-element-i](https://github.com/sriraghu42/leetcode/tree/master/0496-next-greater-element-i) |
 | [0506-relative-ranks](https://github.com/sriraghu42/leetcode/tree/master/0506-relative-ranks) |
 | [0560-subarray-sum-equals-k](https://github.com/sriraghu42/leetcode/tree/master/0560-subarray-sum-equals-k) |
@@ -509,6 +510,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0139-word-break](https://github.com/sriraghu42/leetcode/tree/master/0139-word-break) |
 | [0140-word-break-ii](https://github.com/sriraghu42/leetcode/tree/master/0140-word-break-ii) |
 | [0198-house-robber](https://github.com/sriraghu42/leetcode/tree/master/0198-house-robber) |
+| [0473-matchsticks-to-square](https://github.com/sriraghu42/leetcode/tree/master/0473-matchsticks-to-square) |
 | [0678-valid-parenthesis-string](https://github.com/sriraghu42/leetcode/tree/master/0678-valid-parenthesis-string) |
 | [0718-maximum-length-of-repeated-subarray](https://github.com/sriraghu42/leetcode/tree/master/0718-maximum-length-of-repeated-subarray) |
 | [0740-delete-and-earn](https://github.com/sriraghu42/leetcode/tree/master/0740-delete-and-earn) |
@@ -712,6 +714,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0078-subsets](https://github.com/sriraghu42/leetcode/tree/master/0078-subsets) |
 | [0090-subsets-ii](https://github.com/sriraghu42/leetcode/tree/master/0090-subsets-ii) |
 | [0287-find-the-duplicate-number](https://github.com/sriraghu42/leetcode/tree/master/0287-find-the-duplicate-number) |
+| [0473-matchsticks-to-square](https://github.com/sriraghu42/leetcode/tree/master/0473-matchsticks-to-square) |
 | [2059-unique-length-3-palindromic-subsequences](https://github.com/sriraghu42/leetcode/tree/master/2059-unique-length-3-palindromic-subsequences) |
 | [2308-divide-array-into-equal-pairs](https://github.com/sriraghu42/leetcode/tree/master/2308-divide-array-into-equal-pairs) |
 | [3579-maximum-possible-number-by-binary-concatenation](https://github.com/sriraghu42/leetcode/tree/master/3579-maximum-possible-number-by-binary-concatenation) |
@@ -798,6 +801,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0093-restore-ip-addresses](https://github.com/sriraghu42/leetcode/tree/master/0093-restore-ip-addresses) |
 | [0131-palindrome-partitioning](https://github.com/sriraghu42/leetcode/tree/master/0131-palindrome-partitioning) |
 | [0140-word-break-ii](https://github.com/sriraghu42/leetcode/tree/master/0140-word-break-ii) |
+| [0473-matchsticks-to-square](https://github.com/sriraghu42/leetcode/tree/master/0473-matchsticks-to-square) |
 | [1160-letter-tile-possibilities](https://github.com/sriraghu42/leetcode/tree/master/1160-letter-tile-possibilities) |
 | [1331-path-with-maximum-gold](https://github.com/sriraghu42/leetcode/tree/master/1331-path-with-maximum-gold) |
 | [1516-the-k-th-lexicographical-string-of-all-happy-strings-of-length-n](https://github.com/sriraghu42/leetcode/tree/master/1516-the-k-th-lexicographical-string-of-all-happy-strings-of-length-n) |
@@ -954,4 +958,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0062-unique-paths](https://github.com/sriraghu42/leetcode/tree/master/0062-unique-paths) |
 | [2324-find-triangular-sum-of-an-array](https://github.com/sriraghu42/leetcode/tree/master/2324-find-triangular-sum-of-an-array) |
+## Bitmask
+|  |
+| ------- |
+| [0473-matchsticks-to-square](https://github.com/sriraghu42/leetcode/tree/master/0473-matchsticks-to-square) |
 <!---LeetCode Topics End-->
