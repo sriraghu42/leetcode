@@ -13,10 +13,11 @@ class Solution {
             pre[k] = nearest;
             if(tMap.containsKey(s.charAt(k))) nearest = k;
         }
+        if(!tMap.containsKey(s.charAt(i))) i=pre[i];
         while(j<len){
             char jch = s.charAt(j);
-            sMap.put(jch,sMap.getOrDefault(jch,0)+1);
-            while(i <= j && isValid(sMap,tMap)){
+            if(tMap.containsKey(jch)) sMap.put(jch,sMap.getOrDefault(jch,0)+1);
+            while(i <= j && sMap.size()==tMap.size() && isValid(sMap,tMap)){
                 if(ans.length()==0 || j-i+1<ans.length()){
                     ans = s.substring(i,j+1); 
                 } 
