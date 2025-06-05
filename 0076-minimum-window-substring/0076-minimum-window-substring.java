@@ -7,18 +7,24 @@ class Solution {
         int j = 0;
         int len = s.length();
         String ans = "";
+        int[] pre = new int[len];
+        int nearest = len;
+        for(int k=len-1; k>=0; k--){
+            pre[k] = nearest;
+            if(tMap.containsKey(s.charAt(k))) nearest = k;
+        }
         while(j<len){
             char jch = s.charAt(j);
             sMap.put(jch,sMap.getOrDefault(jch,0)+1);
-            while(isValid(sMap,tMap)){
+            while(i <= j && isValid(sMap,tMap)){
+                System.out.println("j :"+j);
                 if(ans.length()==0 || j-i+1<ans.length()){
-                    System.out.println("Hi");
                     ans = s.substring(i,j+1); 
                 } 
                 char ich = s.charAt(i);
                 sMap.put(ich,sMap.get(ich)-1);
                 if(sMap.get(ich)==0) sMap.remove(ich);
-                i++;
+                i=pre[i];
             }
             j++;
         }
