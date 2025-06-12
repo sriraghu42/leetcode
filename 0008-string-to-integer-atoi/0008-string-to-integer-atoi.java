@@ -1,27 +1,26 @@
 class Solution {
     public int myAtoi(String s) {
-        int ans = 0;
         s = s.trim();
-        int len = s.length();
-        if(len==0) return 0;
-        boolean neg = false;
-        int i = 0;
-        char ch = s.charAt(i);
-        if(ch=='-'){
-            i++;
-            neg = true;
-        } 
-        else if(ch =='+') i++;
-        while(i<len){
-            ch = s.charAt(i);
-            if(!Character.isDigit(ch)) break;
-            int digit = ch - '0';
-            if(ans>(Integer.MAX_VALUE-digit)/10){
-                return neg?Integer.MIN_VALUE:Integer.MAX_VALUE;
-            }
-            ans = ans*10+ digit;
-            i++;
+        if(s.length()==0) return 0;
+        boolean sign = false;
+        int start = 0;
+        if(s.charAt(0)=='-') sign = true;
+        if(s.charAt(0)=='-' || s.charAt(0)=='+') start = 1;
+        long num = 0;
+        for(int i=start; i<s.length(); i++){
+            char ch = s.charAt(i);
+            if(Character.isDigit(ch)){
+                num = num*10 + (ch-'0');
+                if(num>Integer.MAX_VALUE){
+                    if(sign) return Integer.MIN_VALUE;
+                    else return Integer.MAX_VALUE;
+                }
+            } 
+            else break;
         }
-        return neg?0-ans:ans;
+        if(sign) num = 0-num;
+        if(num>Integer.MAX_VALUE) return Integer.MAX_VALUE;
+        if(num<Integer.MIN_VALUE) return Integer.MIN_VALUE;
+        return (int) num;
     }
 }
