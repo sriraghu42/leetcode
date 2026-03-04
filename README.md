@@ -2,8 +2,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 <!---LeetCode Topics Start-->
 # LeetCode Topics
 ## Tree
-|  |
-| ------- |
+| Problem Name | Difficulty |
+| ------- | ------- |
 | [0094-binary-tree-inorder-traversal](https://github.com/sriraghu42/leetcode/tree/master/0094-binary-tree-inorder-traversal) |
 | [0098-validate-binary-search-tree](https://github.com/sriraghu42/leetcode/tree/master/0098-validate-binary-search-tree) |
 | [0103-binary-tree-zigzag-level-order-traversal](https://github.com/sriraghu42/leetcode/tree/master/0103-binary-tree-zigzag-level-order-traversal) |
@@ -29,8 +29,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2558-minimum-number-of-operations-to-sort-a-binary-tree-by-level](https://github.com/sriraghu42/leetcode/tree/master/2558-minimum-number-of-operations-to-sort-a-binary-tree-by-level) |
 | [2646-kth-largest-sum-in-a-binary-tree](https://github.com/sriraghu42/leetcode/tree/master/2646-kth-largest-sum-in-a-binary-tree) |
 ## Breadth-First Search
-|  |
-| ------- |
+| Problem Name | Difficulty |
+| ------- | ------- |
 | [0103-binary-tree-zigzag-level-order-traversal](https://github.com/sriraghu42/leetcode/tree/master/0103-binary-tree-zigzag-level-order-traversal) |
 | [0104-maximum-depth-of-binary-tree](https://github.com/sriraghu42/leetcode/tree/master/0104-maximum-depth-of-binary-tree) |
 | [0117-populating-next-right-pointers-in-each-node-ii](https://github.com/sriraghu42/leetcode/tree/master/0117-populating-next-right-pointers-in-each-node-ii) |
@@ -53,8 +53,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2646-kth-largest-sum-in-a-binary-tree](https://github.com/sriraghu42/leetcode/tree/master/2646-kth-largest-sum-in-a-binary-tree) |
 | [2764-maximum-number-of-fish-in-a-grid](https://github.com/sriraghu42/leetcode/tree/master/2764-maximum-number-of-fish-in-a-grid) |
 ## Binary Tree
-|  |
-| ------- |
+| Problem Name | Difficulty |
+| ------- | ------- |
 | [0094-binary-tree-inorder-traversal](https://github.com/sriraghu42/leetcode/tree/master/0094-binary-tree-inorder-traversal) |
 | [0098-validate-binary-search-tree](https://github.com/sriraghu42/leetcode/tree/master/0098-validate-binary-search-tree) |
 | [0103-binary-tree-zigzag-level-order-traversal](https://github.com/sriraghu42/leetcode/tree/master/0103-binary-tree-zigzag-level-order-traversal) |
@@ -80,8 +80,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2558-minimum-number-of-operations-to-sort-a-binary-tree-by-level](https://github.com/sriraghu42/leetcode/tree/master/2558-minimum-number-of-operations-to-sort-a-binary-tree-by-level) |
 | [2646-kth-largest-sum-in-a-binary-tree](https://github.com/sriraghu42/leetcode/tree/master/2646-kth-largest-sum-in-a-binary-tree) |
 ## Linked List
-|  |
-| ------- |
+| Problem Name | Difficulty |
+| ------- | ------- |
 | [0002-add-two-numbers](https://github.com/sriraghu42/leetcode/tree/master/0002-add-two-numbers) |
 | [0019-remove-nth-node-from-end-of-list](https://github.com/sriraghu42/leetcode/tree/master/0019-remove-nth-node-from-end-of-list) |
 | [0023-merge-k-sorted-lists](https://github.com/sriraghu42/leetcode/tree/master/0023-merge-k-sorted-lists) |
@@ -93,8 +93,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0146-lru-cache](https://github.com/sriraghu42/leetcode/tree/master/0146-lru-cache) |
 | [0206-reverse-linked-list](https://github.com/sriraghu42/leetcode/tree/master/0206-reverse-linked-list) |
 ## String
-|  |
-| ------- |
+| Problem Name | Difficulty |
+| ------- | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/sriraghu42/leetcode/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0006-zigzag-conversion](https://github.com/sriraghu42/leetcode/tree/master/0006-zigzag-conversion) |
 | [0008-string-to-integer-atoi](https://github.com/sriraghu42/leetcode/tree/master/0008-string-to-integer-atoi) |
@@ -168,8 +168,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3569-count-of-substrings-containing-every-vowel-and-k-consonants-ii](https://github.com/sriraghu42/leetcode/tree/master/3569-count-of-substrings-containing-every-vowel-and-k-consonants-ii) |
 | [3753-maximum-difference-between-even-and-odd-frequency-i](https://github.com/sriraghu42/leetcode/tree/master/3753-maximum-difference-between-even-and-odd-frequency-i) |
 ## Hash Table
-|  |
-| ------- |
+| Problem Name | Difficulty |
+| ------- | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/sriraghu42/leetcode/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0012-integer-to-roman](https://github.com/sriraghu42/leetcode/tree/master/0012-integer-to-roman) |
 | [0049-group-anagrams](https://github.com/sriraghu42/leetcode/tree/master/0049-group-anagrams) |
@@ -233,8 +233,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3621-minimum-operations-to-make-array-values-equal-to-k](https://github.com/sriraghu42/leetcode/tree/master/3621-minimum-operations-to-make-array-values-equal-to-k) |
 | [3753-maximum-difference-between-even-and-odd-frequency-i](https://github.com/sriraghu42/leetcode/tree/master/3753-maximum-difference-between-even-and-odd-frequency-i) |
 ## Math
-|  |
-| ------- |
+| Problem Name | Difficulty |
+| ------- | ------- |
 | [0002-add-two-numbers](https://github.com/sriraghu42/leetcode/tree/master/0002-add-two-numbers) |
 | [0012-integer-to-roman](https://github.com/sriraghu42/leetcode/tree/master/0012-integer-to-roman) |
 | [0048-rotate-image](https://github.com/sriraghu42/leetcode/tree/master/0048-rotate-image) |
@@ -260,8 +260,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3555-final-array-state-after-k-multiplication-operations-i](https://github.com/sriraghu42/leetcode/tree/master/3555-final-array-state-after-k-multiplication-operations-i) |
 | [3607-minimum-division-operations-to-make-array-non-decreasing](https://github.com/sriraghu42/leetcode/tree/master/3607-minimum-division-operations-to-make-array-non-decreasing) |
 ## Array
-|  |
-| ------- |
+| Problem Name | Difficulty |
+| ------- | ------- |
 | [0004-median-of-two-sorted-arrays](https://github.com/sriraghu42/leetcode/tree/master/0004-median-of-two-sorted-arrays) |
 | [0011-container-with-most-water](https://github.com/sriraghu42/leetcode/tree/master/0011-container-with-most-water) |
 | [0015-3sum](https://github.com/sriraghu42/leetcode/tree/master/0015-3sum) |
@@ -352,6 +352,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1524-string-matching-in-an-array](https://github.com/sriraghu42/leetcode/tree/master/1524-string-matching-in-an-array) |
 | [1549-longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit](https://github.com/sriraghu42/leetcode/tree/master/1549-longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit) |
 | [1570-final-prices-with-a-special-discount-in-a-shop](https://github.com/sriraghu42/leetcode/tree/master/1570-final-prices-with-a-special-discount-in-a-shop) |
+| [1582-special-positions-in-a-binary-matrix](https://github.com/sriraghu42/leetcode/tree/main/1582-special-positions-in-a-binary-matrix/) | Easy |
 | [1798-max-number-of-k-sum-pairs](https://github.com/sriraghu42/leetcode/tree/master/1798-max-number-of-k-sum-pairs) |
 | [1829-maximum-units-on-a-truck](https://github.com/sriraghu42/leetcode/tree/master/1829-maximum-units-on-a-truck) |
 | [1886-minimum-limit-of-balls-in-a-bag](https://github.com/sriraghu42/leetcode/tree/master/1886-minimum-limit-of-balls-in-a-bag) |
@@ -414,8 +415,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3685-count-subarrays-of-length-three-with-a-condition](https://github.com/sriraghu42/leetcode/tree/master/3685-count-subarrays-of-length-three-with-a-condition) |
 | [3747-maximum-difference-between-adjacent-elements-in-a-circular-array](https://github.com/sriraghu42/leetcode/tree/master/3747-maximum-difference-between-adjacent-elements-in-a-circular-array) |
 ## Stack
-|  |
-| ------- |
+| Problem Name | Difficulty |
+| ------- | ------- |
 | [0042-trapping-rain-water](https://github.com/sriraghu42/leetcode/tree/master/0042-trapping-rain-water) |
 | [0071-simplify-path](https://github.com/sriraghu42/leetcode/tree/master/0071-simplify-path) |
 | [0084-largest-rectangle-in-histogram](https://github.com/sriraghu42/leetcode/tree/master/0084-largest-rectangle-in-histogram) |
@@ -437,8 +438,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2456-construct-smallest-number-from-di-string](https://github.com/sriraghu42/leetcode/tree/master/2456-construct-smallest-number-from-di-string) |
 | [3447-clear-digits](https://github.com/sriraghu42/leetcode/tree/master/3447-clear-digits) |
 ## Depth-First Search
-|  |
-| ------- |
+| Problem Name | Difficulty |
+| ------- | ------- |
 | [0079-word-search](https://github.com/sriraghu42/leetcode/tree/master/0079-word-search) |
 | [0094-binary-tree-inorder-traversal](https://github.com/sriraghu42/leetcode/tree/master/0094-binary-tree-inorder-traversal) |
 | [0098-validate-binary-search-tree](https://github.com/sriraghu42/leetcode/tree/master/0098-validate-binary-search-tree) |
@@ -467,8 +468,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2493-reverse-odd-levels-of-binary-tree](https://github.com/sriraghu42/leetcode/tree/master/2493-reverse-odd-levels-of-binary-tree) |
 | [2764-maximum-number-of-fish-in-a-grid](https://github.com/sriraghu42/leetcode/tree/master/2764-maximum-number-of-fish-in-a-grid) |
 ## Binary Search Tree
-|  |
-| ------- |
+| Problem Name | Difficulty |
+| ------- | ------- |
 | [0004-median-of-two-sorted-arrays](https://github.com/sriraghu42/leetcode/tree/master/0004-median-of-two-sorted-arrays) |
 | [0033-search-in-rotated-sorted-array](https://github.com/sriraghu42/leetcode/tree/master/0033-search-in-rotated-sorted-array) |
 | [0035-search-insert-position](https://github.com/sriraghu42/leetcode/tree/master/0035-search-insert-position) |
@@ -505,8 +506,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3427-special-array-ii](https://github.com/sriraghu42/leetcode/tree/master/3427-special-array-ii) |
 | [3643-zero-array-transformation-ii](https://github.com/sriraghu42/leetcode/tree/master/3643-zero-array-transformation-ii) |
 ## Dynamic Programming
-|  |
-| ------- |
+| Problem Name | Difficulty |
+| ------- | ------- |
 | [0022-generate-parentheses](https://github.com/sriraghu42/leetcode/tree/master/0022-generate-parentheses) |
 | [0042-trapping-rain-water](https://github.com/sriraghu42/leetcode/tree/master/0042-trapping-rain-water) |
 | [0053-maximum-subarray](https://github.com/sriraghu42/leetcode/tree/master/0053-maximum-subarray) |
@@ -531,8 +532,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2164-two-best-non-overlapping-events](https://github.com/sriraghu42/leetcode/tree/master/2164-two-best-non-overlapping-events) |
 | [3143-longest-unequal-adjacent-groups-subsequence-i](https://github.com/sriraghu42/leetcode/tree/master/3143-longest-unequal-adjacent-groups-subsequence-i) |
 ## Two Pointers
-|  |
-| ------- |
+| Problem Name | Difficulty |
+| ------- | ------- |
 | [0011-container-with-most-water](https://github.com/sriraghu42/leetcode/tree/master/0011-container-with-most-water) |
 | [0015-3sum](https://github.com/sriraghu42/leetcode/tree/master/0015-3sum) |
 | [0018-4sum](https://github.com/sriraghu42/leetcode/tree/master/0018-4sum) |
@@ -560,8 +561,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3018-make-string-a-subsequence-using-cyclic-increments](https://github.com/sriraghu42/leetcode/tree/master/3018-make-string-a-subsequence-using-cyclic-increments) |
 | [3195-separate-black-and-white-balls](https://github.com/sriraghu42/leetcode/tree/master/3195-separate-black-and-white-balls) |
 ## String Matching
-|  |
-| ------- |
+| Problem Name | Difficulty |
+| ------- | ------- |
 | [0028-find-the-index-of-the-first-occurrence-in-a-string](https://github.com/sriraghu42/leetcode/tree/master/0028-find-the-index-of-the-first-occurrence-in-a-string) |
 | [0459-repeated-substring-pattern](https://github.com/sriraghu42/leetcode/tree/master/0459-repeated-substring-pattern) |
 | [0572-subtree-of-another-tree](https://github.com/sriraghu42/leetcode/tree/master/0572-subtree-of-another-tree) |
@@ -569,8 +570,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1524-string-matching-in-an-array](https://github.com/sriraghu42/leetcode/tree/master/1524-string-matching-in-an-array) |
 | [1566-check-if-a-word-occurs-as-a-prefix-of-any-word-in-a-sentence](https://github.com/sriraghu42/leetcode/tree/master/1566-check-if-a-word-occurs-as-a-prefix-of-any-word-in-a-sentence) |
 ## Sorting
-|  |
-| ------- |
+| Problem Name | Difficulty |
+| ------- | ------- |
 | [0015-3sum](https://github.com/sriraghu42/leetcode/tree/master/0015-3sum) |
 | [0018-4sum](https://github.com/sriraghu42/leetcode/tree/master/0018-4sum) |
 | [0049-group-anagrams](https://github.com/sriraghu42/leetcode/tree/master/0049-group-anagrams) |
@@ -604,8 +605,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2891-maximum-beauty-of-an-array-after-applying-operation](https://github.com/sriraghu42/leetcode/tree/master/2891-maximum-beauty-of-an-array-after-applying-operation) |
 | [3321-type-of-triangle](https://github.com/sriraghu42/leetcode/tree/master/3321-type-of-triangle) |
 ## Divide and Conquer
-|  |
-| ------- |
+| Problem Name | Difficulty |
+| ------- | ------- |
 | [0004-median-of-two-sorted-arrays](https://github.com/sriraghu42/leetcode/tree/master/0004-median-of-two-sorted-arrays) |
 | [0023-merge-k-sorted-lists](https://github.com/sriraghu42/leetcode/tree/master/0023-merge-k-sorted-lists) |
 | [0053-maximum-subarray](https://github.com/sriraghu42/leetcode/tree/master/0053-maximum-subarray) |
@@ -615,8 +616,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0925-construct-binary-tree-from-preorder-and-postorder-traversal](https://github.com/sriraghu42/leetcode/tree/master/0925-construct-binary-tree-from-preorder-and-postorder-traversal) |
 | [1014-k-closest-points-to-origin](https://github.com/sriraghu42/leetcode/tree/master/1014-k-closest-points-to-origin) |
 ## Heap (Priority Queue)
-|  |
-| ------- |
+| Problem Name | Difficulty |
+| ------- | ------- |
 | [0023-merge-k-sorted-lists](https://github.com/sriraghu42/leetcode/tree/master/0023-merge-k-sorted-lists) |
 | [0215-kth-largest-element-in-an-array](https://github.com/sriraghu42/leetcode/tree/master/0215-kth-largest-element-in-an-array) |
 | [0239-sliding-window-maximum](https://github.com/sriraghu42/leetcode/tree/master/0239-sliding-window-maximum) |
@@ -649,14 +650,14 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3627-find-minimum-time-to-reach-last-room-i](https://github.com/sriraghu42/leetcode/tree/master/3627-find-minimum-time-to-reach-last-room-i) |
 | [3628-find-minimum-time-to-reach-last-room-ii](https://github.com/sriraghu42/leetcode/tree/master/3628-find-minimum-time-to-reach-last-room-ii) |
 ## Quickselect
-|  |
-| ------- |
+| Problem Name | Difficulty |
+| ------- | ------- |
 | [0215-kth-largest-element-in-an-array](https://github.com/sriraghu42/leetcode/tree/master/0215-kth-largest-element-in-an-array) |
 | [0347-top-k-frequent-elements](https://github.com/sriraghu42/leetcode/tree/master/0347-top-k-frequent-elements) |
 | [1014-k-closest-points-to-origin](https://github.com/sriraghu42/leetcode/tree/master/1014-k-closest-points-to-origin) |
 ## Matrix
-|  |
-| ------- |
+| Problem Name | Difficulty |
+| ------- | ------- |
 | [0048-rotate-image](https://github.com/sriraghu42/leetcode/tree/master/0048-rotate-image) |
 | [0054-spiral-matrix](https://github.com/sriraghu42/leetcode/tree/master/0054-spiral-matrix) |
 | [0064-minimum-path-sum](https://github.com/sriraghu42/leetcode/tree/master/0064-minimum-path-sum) |
@@ -674,6 +675,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1147-flip-columns-for-maximum-number-of-equal-rows](https://github.com/sriraghu42/leetcode/tree/master/1147-flip-columns-for-maximum-number-of-equal-rows) |
 | [1331-path-with-maximum-gold](https://github.com/sriraghu42/leetcode/tree/master/1331-path-with-maximum-gold) |
 | [1463-the-k-weakest-rows-in-a-matrix](https://github.com/sriraghu42/leetcode/tree/master/1463-the-k-weakest-rows-in-a-matrix) |
+| [1582-special-positions-in-a-binary-matrix](https://github.com/sriraghu42/leetcode/tree/main/1582-special-positions-in-a-binary-matrix/) | Easy |
 | [1972-rotating-the-box](https://github.com/sriraghu42/leetcode/tree/master/1972-rotating-the-box) |
 | [2089-maximum-matrix-sum](https://github.com/sriraghu42/leetcode/tree/master/2089-maximum-matrix-sum) |
 | [2343-count-unguarded-cells-in-the-grid](https://github.com/sriraghu42/leetcode/tree/master/2343-count-unguarded-cells-in-the-grid) |
@@ -682,8 +684,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3627-find-minimum-time-to-reach-last-room-i](https://github.com/sriraghu42/leetcode/tree/master/3627-find-minimum-time-to-reach-last-room-i) |
 | [3628-find-minimum-time-to-reach-last-room-ii](https://github.com/sriraghu42/leetcode/tree/master/3628-find-minimum-time-to-reach-last-room-ii) |
 ## Sliding Window
-|  |
-| ------- |
+| Problem Name | Difficulty |
+| ------- | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/sriraghu42/leetcode/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0076-minimum-window-substring](https://github.com/sriraghu42/leetcode/tree/master/0076-minimum-window-substring) |
 | [0209-minimum-size-subarray-sum](https://github.com/sriraghu42/leetcode/tree/master/0209-minimum-size-subarray-sum) |
@@ -715,12 +717,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3569-count-of-substrings-containing-every-vowel-and-k-consonants-ii](https://github.com/sriraghu42/leetcode/tree/master/3569-count-of-substrings-containing-every-vowel-and-k-consonants-ii) |
 | [3610-find-x-sum-of-all-k-long-subarrays-i](https://github.com/sriraghu42/leetcode/tree/master/3610-find-x-sum-of-all-k-long-subarrays-i) |
 ## Geometry
-|  |
-| ------- |
+| Problem Name | Difficulty |
+| ------- | ------- |
 | [1014-k-closest-points-to-origin](https://github.com/sriraghu42/leetcode/tree/master/1014-k-closest-points-to-origin) |
 ## Bit Manipulation
-|  |
-| ------- |
+| Problem Name | Difficulty |
+| ------- | ------- |
 | [0078-subsets](https://github.com/sriraghu42/leetcode/tree/master/0078-subsets) |
 | [0090-subsets-ii](https://github.com/sriraghu42/leetcode/tree/master/0090-subsets-ii) |
 | [0287-find-the-duplicate-number](https://github.com/sriraghu42/leetcode/tree/master/0287-find-the-duplicate-number) |
@@ -729,18 +731,18 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2308-divide-array-into-equal-pairs](https://github.com/sriraghu42/leetcode/tree/master/2308-divide-array-into-equal-pairs) |
 | [3579-maximum-possible-number-by-binary-concatenation](https://github.com/sriraghu42/leetcode/tree/master/3579-maximum-possible-number-by-binary-concatenation) |
 ## Enumeration
-|  |
-| ------- |
+| Problem Name | Difficulty |
+| ------- | ------- |
 | [0875-longest-mountain-in-array](https://github.com/sriraghu42/leetcode/tree/master/0875-longest-mountain-in-array) |
 | [2215-finding-3-digit-even-numbers](https://github.com/sriraghu42/leetcode/tree/master/2215-finding-3-digit-even-numbers) |
 | [3579-maximum-possible-number-by-binary-concatenation](https://github.com/sriraghu42/leetcode/tree/master/3579-maximum-possible-number-by-binary-concatenation) |
 ## Merge Sort
-|  |
-| ------- |
+| Problem Name | Difficulty |
+| ------- | ------- |
 | [0023-merge-k-sorted-lists](https://github.com/sriraghu42/leetcode/tree/master/0023-merge-k-sorted-lists) |
 ## Greedy
-|  |
-| ------- |
+| Problem Name | Difficulty |
+| ------- | ------- |
 | [0011-container-with-most-water](https://github.com/sriraghu42/leetcode/tree/master/0011-container-with-most-water) |
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/sriraghu42/leetcode/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
 | [0678-valid-parenthesis-string](https://github.com/sriraghu42/leetcode/tree/master/0678-valid-parenthesis-string) |
@@ -760,8 +762,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3195-separate-black-and-white-balls](https://github.com/sriraghu42/leetcode/tree/master/3195-separate-black-and-white-balls) |
 | [3607-minimum-division-operations-to-make-array-non-decreasing](https://github.com/sriraghu42/leetcode/tree/master/3607-minimum-division-operations-to-make-array-non-decreasing) |
 ## Trie
-|  |
-| ------- |
+| Problem Name | Difficulty |
+| ------- | ------- |
 | [0014-longest-common-prefix](https://github.com/sriraghu42/leetcode/tree/master/0014-longest-common-prefix) |
 | [0139-word-break](https://github.com/sriraghu42/leetcode/tree/master/0139-word-break) |
 | [0140-word-break-ii](https://github.com/sriraghu42/leetcode/tree/master/0140-word-break-ii) |
@@ -770,8 +772,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0692-top-k-frequent-words](https://github.com/sriraghu42/leetcode/tree/master/0692-top-k-frequent-words) |
 | [1397-search-suggestions-system](https://github.com/sriraghu42/leetcode/tree/master/1397-search-suggestions-system) |
 ## Union Find
-|  |
-| ------- |
+| Problem Name | Difficulty |
+| ------- | ------- |
 | [0128-longest-consecutive-sequence](https://github.com/sriraghu42/leetcode/tree/master/0128-longest-consecutive-sequence) |
 | [0130-surrounded-regions](https://github.com/sriraghu42/leetcode/tree/master/0130-surrounded-regions) |
 | [0200-number-of-islands](https://github.com/sriraghu42/leetcode/tree/master/0200-number-of-islands) |
@@ -779,30 +781,30 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0854-making-a-large-island](https://github.com/sriraghu42/leetcode/tree/master/0854-making-a-large-island) |
 | [2764-maximum-number-of-fish-in-a-grid](https://github.com/sriraghu42/leetcode/tree/master/2764-maximum-number-of-fish-in-a-grid) |
 ## Number Theory
-|  |
-| ------- |
+| Problem Name | Difficulty |
+| ------- | ------- |
 | [2610-closest-prime-numbers-in-range](https://github.com/sriraghu42/leetcode/tree/master/2610-closest-prime-numbers-in-range) |
 | [3607-minimum-division-operations-to-make-array-non-decreasing](https://github.com/sriraghu42/leetcode/tree/master/3607-minimum-division-operations-to-make-array-non-decreasing) |
 ## Memoization
-|  |
-| ------- |
+| Problem Name | Difficulty |
+| ------- | ------- |
 | [0070-climbing-stairs](https://github.com/sriraghu42/leetcode/tree/master/0070-climbing-stairs) |
 | [0139-word-break](https://github.com/sriraghu42/leetcode/tree/master/0139-word-break) |
 | [0140-word-break-ii](https://github.com/sriraghu42/leetcode/tree/master/0140-word-break-ii) |
 | [1236-n-th-tribonacci-number](https://github.com/sriraghu42/leetcode/tree/master/1236-n-th-tribonacci-number) |
 ## Graph
-|  |
-| ------- |
+| Problem Name | Difficulty |
+| ------- | ------- |
 | [3627-find-minimum-time-to-reach-last-room-i](https://github.com/sriraghu42/leetcode/tree/master/3627-find-minimum-time-to-reach-last-room-i) |
 | [3628-find-minimum-time-to-reach-last-room-ii](https://github.com/sriraghu42/leetcode/tree/master/3628-find-minimum-time-to-reach-last-room-ii) |
 ## Shortest Path
-|  |
-| ------- |
+| Problem Name | Difficulty |
+| ------- | ------- |
 | [3627-find-minimum-time-to-reach-last-room-i](https://github.com/sriraghu42/leetcode/tree/master/3627-find-minimum-time-to-reach-last-room-i) |
 | [3628-find-minimum-time-to-reach-last-room-ii](https://github.com/sriraghu42/leetcode/tree/master/3628-find-minimum-time-to-reach-last-room-ii) |
 ## Backtracking
-|  |
-| ------- |
+| Problem Name | Difficulty |
+| ------- | ------- |
 | [0022-generate-parentheses](https://github.com/sriraghu42/leetcode/tree/master/0022-generate-parentheses) |
 | [0039-combination-sum](https://github.com/sriraghu42/leetcode/tree/master/0039-combination-sum) |
 | [0040-combination-sum-ii](https://github.com/sriraghu42/leetcode/tree/master/0040-combination-sum-ii) |
@@ -821,8 +823,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2456-construct-smallest-number-from-di-string](https://github.com/sriraghu42/leetcode/tree/master/2456-construct-smallest-number-from-di-string) |
 | [2802-find-the-punishment-number-of-an-integer](https://github.com/sriraghu42/leetcode/tree/master/2802-find-the-punishment-number-of-an-integer) |
 ## Prefix Sum
-|  |
-| ------- |
+| Problem Name | Difficulty |
+| ------- | ------- |
 | [0209-minimum-size-subarray-sum](https://github.com/sriraghu42/leetcode/tree/master/0209-minimum-size-subarray-sum) |
 | [0238-product-of-array-except-self](https://github.com/sriraghu42/leetcode/tree/master/0238-product-of-array-except-self) |
 | [0560-subarray-sum-equals-k](https://github.com/sriraghu42/leetcode/tree/master/0560-subarray-sum-equals-k) |
@@ -846,8 +848,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3639-zero-array-transformation-i](https://github.com/sriraghu42/leetcode/tree/master/3639-zero-array-transformation-i) |
 | [3643-zero-array-transformation-ii](https://github.com/sriraghu42/leetcode/tree/master/3643-zero-array-transformation-ii) |
 ## Simulation
-|  |
-| ------- |
+| Problem Name | Difficulty |
+| ------- | ------- |
 | [0054-spiral-matrix](https://github.com/sriraghu42/leetcode/tree/master/0054-spiral-matrix) |
 | [0068-text-justification](https://github.com/sriraghu42/leetcode/tree/master/0068-text-justification) |
 | [0289-game-of-life](https://github.com/sriraghu42/leetcode/tree/master/0289-game-of-life) |
@@ -864,12 +866,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3447-clear-digits](https://github.com/sriraghu42/leetcode/tree/master/3447-clear-digits) |
 | [3555-final-array-state-after-k-multiplication-operations-i](https://github.com/sriraghu42/leetcode/tree/master/3555-final-array-state-after-k-multiplication-operations-i) |
 ## Interactive
-|  |
-| ------- |
+| Problem Name | Difficulty |
+| ------- | ------- |
 | [0278-first-bad-version](https://github.com/sriraghu42/leetcode/tree/master/0278-first-bad-version) |
 ## Counting
-|  |
-| ------- |
+| Problem Name | Difficulty |
+| ------- | ------- |
 | [0347-top-k-frequent-elements](https://github.com/sriraghu42/leetcode/tree/master/0347-top-k-frequent-elements) |
 | [0451-sort-characters-by-frequency](https://github.com/sriraghu42/leetcode/tree/master/0451-sort-characters-by-frequency) |
 | [0692-top-k-frequent-words](https://github.com/sriraghu42/leetcode/tree/master/0692-top-k-frequent-words) |
@@ -886,8 +888,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3267-find-longest-special-substring-that-occurs-thrice-i](https://github.com/sriraghu42/leetcode/tree/master/3267-find-longest-special-substring-that-occurs-thrice-i) |
 | [3753-maximum-difference-between-even-and-odd-frequency-i](https://github.com/sriraghu42/leetcode/tree/master/3753-maximum-difference-between-even-and-odd-frequency-i) |
 ## Queue
-|  |
-| ------- |
+| Problem Name | Difficulty |
+| ------- | ------- |
 | [0239-sliding-window-maximum](https://github.com/sriraghu42/leetcode/tree/master/0239-sliding-window-maximum) |
 | [0892-shortest-subarray-with-sum-at-least-k](https://github.com/sriraghu42/leetcode/tree/master/0892-shortest-subarray-with-sum-at-least-k) |
 | [1549-longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit](https://github.com/sriraghu42/leetcode/tree/master/1549-longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit) |
@@ -895,14 +897,14 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2527-count-subarrays-with-fixed-bounds](https://github.com/sriraghu42/leetcode/tree/master/2527-count-subarrays-with-fixed-bounds) |
 | [2868-continuous-subarrays](https://github.com/sriraghu42/leetcode/tree/master/2868-continuous-subarrays) |
 ## Ordered Set
-|  |
-| ------- |
+| Problem Name | Difficulty |
+| ------- | ------- |
 | [1549-longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit](https://github.com/sriraghu42/leetcode/tree/master/1549-longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit) |
 | [2434-design-a-number-container-system](https://github.com/sriraghu42/leetcode/tree/master/2434-design-a-number-container-system) |
 | [2868-continuous-subarrays](https://github.com/sriraghu42/leetcode/tree/master/2868-continuous-subarrays) |
 ## Monotonic Queue
-|  |
-| ------- |
+| Problem Name | Difficulty |
+| ------- | ------- |
 | [0239-sliding-window-maximum](https://github.com/sriraghu42/leetcode/tree/master/0239-sliding-window-maximum) |
 | [0892-shortest-subarray-with-sum-at-least-k](https://github.com/sriraghu42/leetcode/tree/master/0892-shortest-subarray-with-sum-at-least-k) |
 | [1549-longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit](https://github.com/sriraghu42/leetcode/tree/master/1549-longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit) |
@@ -910,8 +912,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2527-count-subarrays-with-fixed-bounds](https://github.com/sriraghu42/leetcode/tree/master/2527-count-subarrays-with-fixed-bounds) |
 | [2868-continuous-subarrays](https://github.com/sriraghu42/leetcode/tree/master/2868-continuous-subarrays) |
 ## Monotonic Stack
-|  |
-| ------- |
+| Problem Name | Difficulty |
+| ------- | ------- |
 | [0042-trapping-rain-water](https://github.com/sriraghu42/leetcode/tree/master/0042-trapping-rain-water) |
 | [0084-largest-rectangle-in-histogram](https://github.com/sriraghu42/leetcode/tree/master/0084-largest-rectangle-in-histogram) |
 | [0496-next-greater-element-i](https://github.com/sriraghu42/leetcode/tree/master/0496-next-greater-element-i) |
@@ -920,13 +922,13 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0883-car-fleet](https://github.com/sriraghu42/leetcode/tree/master/0883-car-fleet) |
 | [1570-final-prices-with-a-special-discount-in-a-shop](https://github.com/sriraghu42/leetcode/tree/master/1570-final-prices-with-a-special-discount-in-a-shop) |
 ## Database
-|  |
-| ------- |
+| Problem Name | Difficulty |
+| ------- | ------- |
 | [0619-biggest-single-number](https://github.com/sriraghu42/leetcode/tree/master/0619-biggest-single-number) |
 | [1773-percentage-of-users-attended-a-contest](https://github.com/sriraghu42/leetcode/tree/master/1773-percentage-of-users-attended-a-contest) |
 ## Design
-|  |
-| ------- |
+| Problem Name | Difficulty |
+| ------- | ------- |
 | [0146-lru-cache](https://github.com/sriraghu42/leetcode/tree/master/0146-lru-cache) |
 | [0155-min-stack](https://github.com/sriraghu42/leetcode/tree/master/0155-min-stack) |
 | [0208-implement-trie-prefix-tree](https://github.com/sriraghu42/leetcode/tree/master/0208-implement-trie-prefix-tree) |
@@ -936,44 +938,44 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1477-product-of-the-last-k-numbers](https://github.com/sriraghu42/leetcode/tree/master/1477-product-of-the-last-k-numbers) |
 | [2434-design-a-number-container-system](https://github.com/sriraghu42/leetcode/tree/master/2434-design-a-number-container-system) |
 ## Bucket Sort
-|  |
-| ------- |
+| Problem Name | Difficulty |
+| ------- | ------- |
 | [0347-top-k-frequent-elements](https://github.com/sriraghu42/leetcode/tree/master/0347-top-k-frequent-elements) |
 | [0451-sort-characters-by-frequency](https://github.com/sriraghu42/leetcode/tree/master/0451-sort-characters-by-frequency) |
 | [0692-top-k-frequent-words](https://github.com/sriraghu42/leetcode/tree/master/0692-top-k-frequent-words) |
 ## Data Stream
-|  |
-| ------- |
+| Problem Name | Difficulty |
+| ------- | ------- |
 | [0295-find-median-from-data-stream](https://github.com/sriraghu42/leetcode/tree/master/0295-find-median-from-data-stream) |
 | [0789-kth-largest-element-in-a-stream](https://github.com/sriraghu42/leetcode/tree/master/0789-kth-largest-element-in-a-stream) |
 | [1477-product-of-the-last-k-numbers](https://github.com/sriraghu42/leetcode/tree/master/1477-product-of-the-last-k-numbers) |
 ## Rolling Hash
-|  |
-| ------- |
+| Problem Name | Difficulty |
+| ------- | ------- |
 | [0718-maximum-length-of-repeated-subarray](https://github.com/sriraghu42/leetcode/tree/master/0718-maximum-length-of-repeated-subarray) |
 ## Hash Function
-|  |
-| ------- |
+| Problem Name | Difficulty |
+| ------- | ------- |
 | [0572-subtree-of-another-tree](https://github.com/sriraghu42/leetcode/tree/master/0572-subtree-of-another-tree) |
 | [0718-maximum-length-of-repeated-subarray](https://github.com/sriraghu42/leetcode/tree/master/0718-maximum-length-of-repeated-subarray) |
 ## Doubly-Linked List
-|  |
-| ------- |
+| Problem Name | Difficulty |
+| ------- | ------- |
 | [0146-lru-cache](https://github.com/sriraghu42/leetcode/tree/master/0146-lru-cache) |
 ## Recursion
-|  |
-| ------- |
+| Problem Name | Difficulty |
+| ------- | ------- |
 | [0002-add-two-numbers](https://github.com/sriraghu42/leetcode/tree/master/0002-add-two-numbers) |
 | [0024-swap-nodes-in-pairs](https://github.com/sriraghu42/leetcode/tree/master/0024-swap-nodes-in-pairs) |
 | [0206-reverse-linked-list](https://github.com/sriraghu42/leetcode/tree/master/0206-reverse-linked-list) |
 | [0224-basic-calculator](https://github.com/sriraghu42/leetcode/tree/master/0224-basic-calculator) |
 ## Combinatorics
-|  |
-| ------- |
+| Problem Name | Difficulty |
+| ------- | ------- |
 | [0062-unique-paths](https://github.com/sriraghu42/leetcode/tree/master/0062-unique-paths) |
 | [2324-find-triangular-sum-of-an-array](https://github.com/sriraghu42/leetcode/tree/master/2324-find-triangular-sum-of-an-array) |
 ## Bitmask
-|  |
-| ------- |
+| Problem Name | Difficulty |
+| ------- | ------- |
 | [0473-matchsticks-to-square](https://github.com/sriraghu42/leetcode/tree/master/0473-matchsticks-to-square) |
 <!---LeetCode Topics End-->
