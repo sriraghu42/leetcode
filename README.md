@@ -981,4 +981,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0473-matchsticks-to-square](https://github.com/sriraghu42/leetcode/tree/master/0473-matchsticks-to-square) |
+## Union-Find
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0200-number-of-islands](https://github.com/sriraghu42/leetcode/tree/main/0200-number-of-islands/) | Medium |
 <!---LeetCode Topics End-->
